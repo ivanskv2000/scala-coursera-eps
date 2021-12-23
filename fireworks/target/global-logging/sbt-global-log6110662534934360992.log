@@ -1,0 +1,169 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.3 (Oracle Corporation Java 16.0.2)
+[debug]       Load.loadUnit: plugins took 60.928836ms
+[debug]       Load.loadUnit: defsScala took 0.201092ms
+[debug] [Loading] Scanning directory /Users/ivanskv_mercaux/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/ivanskv_mercaux/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.794839 ms
+[debug]           Load.resolveProject(global-plugins) took 34.476718ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/ivanskv_mercaux/.sbt/1.0/plugins, plugins: List(<none>))) took 67.749077ms
+[debug] [Loading] Done in /Users/ivanskv_mercaux/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 84.742749ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.180978ms
+[debug]     Load.loadUnit(file:/Users/ivanskv_mercaux/.sbt/1.0/plugins/, ...) took 153.383939ms
+[debug]   Load.apply: load took 545.563577ms
+[debug]   Load.apply: resolveProjects took 4.247054ms
+[debug]   Load.apply: finalTransforms took 42.73436ms
+[debug]   Load.apply: config.delegates took 4.795813ms
+[debug]   Load.apply: Def.make(settings)... took 268.561689ms
+[debug]   Load.apply: structureIndex took 70.305054ms
+[debug]   Load.apply: mkStreams took 0.915968ms
+[info] loading global plugins from /Users/ivanskv_mercaux/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2030.846717ms
+[debug]                 Load.loadUnit: plugins took 25.341094ms
+[debug]                 Load.loadUnit: defsScala took 0.004442ms
+[debug] [Loading] Scanning directory /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.389574 ms
+[debug]                     Load.resolveProject(fireworks-build-build) took 0.84724ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id fireworks-build-build, base: /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project/project, plugins: List(<none>))) took 2.695095ms
+[debug] [Loading] Done in /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project/project, returning: (fireworks-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 4.339438ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 0.008882ms
+[debug]               Load.loadUnit(file:/Users/ivanskv_mercaux/Desktop/sctest/fireworks/project/project/, ...) took 30.281778ms
+[debug]             Load.apply: load took 31.250762ms
+[debug]             Load.apply: resolveProjects took 0.084857ms
+[debug]             Load.apply: finalTransforms took 11.144418ms
+[debug]             Load.apply: config.delegates took 0.27622ms
+[debug]             Load.apply: Def.make(settings)... took 71.191635ms
+[debug]             Load.apply: structureIndex took 23.389287ms
+[debug]             Load.apply: mkStreams took 0.001919ms
+[info] loading project definition from /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 854.366965ms
+[debug]           Load.loadUnit: defsScala took 0.004136ms
+[debug] [Loading] Scanning directory /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project
+[debug]             Load.loadUnit: mkEval took 5.99617ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.123532 ms
+[info] loading settings for project fireworks-build from buildSettings.sbt,plugins.sbt ...
+[debug]               Load.resolveProject(fireworks-build) took 1.837868ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id fireworks-build, base: /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project, plugins: List(<none>))) took 3.395538ms
+[debug] [Loading] Done in /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project, returning: (fireworks-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1769.146069ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.234038ms
+[debug]         Load.loadUnit(file:/Users/ivanskv_mercaux/Desktop/sctest/fireworks/project/, ...) took 2630.473169ms
+[debug]       Load.apply: load took 2631.414684ms
+[debug]       Load.apply: resolveProjects took 0.067572ms
+[debug]       Load.apply: finalTransforms took 6.613393ms
+[debug]       Load.apply: config.delegates took 0.22248ms
+[debug]       Load.apply: Def.make(settings)... took 44.108044ms
+[debug]       Load.apply: structureIndex took 18.257947ms
+[debug]       Load.apply: mkStreams took 0.001606ms
+[info] loading project definition from /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to /Users/ivanskv_mercaux/Desktop/sctest/fireworks/project/target/scala-2.12/sbt-1.0/classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.14. Compiling...
+[info]   Compilation completed in 6.135s.
+[info] done compiling
+[debug]     Load.loadUnit: plugins took 12992.876803ms
+[debug]     Load.loadUnit: defsScala took 0.021885ms
+[debug] [Loading] Scanning directory /Users/ivanskv_mercaux/Desktop/sctest/fireworks
+[debug]       Load.loadUnit: mkEval took 0.139596ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/ivanskv_mercaux/Desktop/sctest/fireworks, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(ch.epfl.lamp.StudentTasks), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(scalafix.sbt.ScalafixPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(scalafix.sbt.ScalafixTestkitPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(ch.epfl.lamp.MOOCSettings),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(ch.epfl.lamp.StudentTasks),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(ch.epfl.lamp.StudentTasks),Set(Atom(ch.epfl.lamp.MOOCSettings)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scalafix.sbt.ScalafixPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,ch.epfl.lamp.StudentTasks,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,ch.epfl.lamp.MOOCSettings,sbt.plugins.JvmPlugin,scalafix.sbt.ScalafixPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.87553 ms
+[info] loading settings for project fireworks from assignment.sbt,build.sbt ...
+[debug]         Load.resolveProject(fireworks) took 6.836632ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id fireworks, base: /Users/ivanskv_mercaux/Desktop/sctest/fireworks, plugins: List(<none>))) took 9.566543ms
+[debug] [Loading] Done in /Users/ivanskv_mercaux/Desktop/sctest/fireworks, returning: (fireworks)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1374.963932ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.833647ms
+[debug]   Load.loadUnit(file:/Users/ivanskv_mercaux/Desktop/sctest/fireworks/, ...) took 14372.307646ms
+[debug] Load.apply: load took 14373.510954ms
+[debug] Load.apply: resolveProjects took 0.076739ms
+[debug] Load.apply: finalTransforms took 9.543504ms
+[debug] Load.apply: config.delegates took 0.24498ms
+[debug] Load.apply: Def.make(settings)... took 531.256099ms
+[debug] Load.apply: structureIndex took 32.384518ms
+[debug] Load.apply: mkStreams took 0.00203ms
+[info] set current project to effective-scala-fireworks (in build file:/Users/ivanskv_mercaux/Desktop/sctest/fireworks/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/ivanskv_mercaux/.sbt/1.0/server/a1cf09bb7581488d643e/sock
+[debug] Writing bsp connection file
+[info] started sbt server

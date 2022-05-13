@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(submit ivanskv2000@gmail.com BzVLiFiJHc5mfWPh, Some(c56ff912-9d35-4e37-8c9a-67dc14790b93), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: submit[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/target/scala-3.0.0/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mAttempting to submit "fireworks" assignment in "effective-scala" course[0m
+[0m[[0m[0minfo[0m] [0m[0mUsing:[0m
+[0m[[0m[0minfo[0m] [0m[0m- email: ivanskv2000@gmail.com[0m
+[0m[[0m[0minfo[0m] [0m[0m- submit token: BzVLiFiJHc5mfWPh[0m
+[0m[[0m[0minfo[0m] [0m[0mConnecting to Coursera...[0m
+[0m[[0m[31merror[0m] [0m[0mSubmission failed.[0m
+[0m[[0m[31merror[0m] [0m[0mThere was something wrong while attempting to submit.[0m
+[0m[[0m[31merror[0m] [0m[0mCoursera says:[0m
+[0m[[0m[31merror[0m] [0m[0mYou used a token for "Democracy (audit version)" in "Effective Programming in Scala". Please use a token for the assignment you are submitting. (Status 400)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 9 s, completed 13 мая 2022 г., 15:27:14[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

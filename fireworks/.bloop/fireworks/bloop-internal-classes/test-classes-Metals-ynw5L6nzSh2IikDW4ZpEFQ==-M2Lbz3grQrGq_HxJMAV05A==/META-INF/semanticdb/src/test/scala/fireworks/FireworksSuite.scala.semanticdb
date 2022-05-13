@@ -1,0 +1,811 @@
+
+ò¿-src/test/scala/fireworks/FireworksSuite.scala*0
+fireworks/FireworksSuite#*FireworksSuite€*6
+$fireworks/FireworksSuite#`<init>`(). €@*<init>€*
+local0*waiting€*
+local1*t€*
+local2*launched€*
+local3*t€*
+local4*	exploding€*
+local5*t€*
+local6*waiting€*
+local7 €*nextWaiting€*
+local8*t€*
+local9*waiting€*
+local10 €*launched€*
+local11*t€*
+local12*launched€*
+local13 €*nextLaunched€*
+local14*t€*
+local15*launched€*
+local16 €*nextLaunched€*#
+local17 €*expectedPosition€*
+local18*t€*
+local19*launched€*
+local20 €*	exploding€*
+local21*t€*
+local22*	exploding€* 
+local23 €*nextExploding€*
+local24*t€*
+local25*	exploding€*
+local26*t€*
+local27*particle€*
+local28 €*nextParticle€**
+local29 €*expectedHorizontalSpeed€*(
+local30 €*expectedVerticalSpeed€*
+local31*t€*5
+$fireworks/FireworksSuite#property().*property€*7
+*fireworks/FireworksSuite#property().(name)*name€*7
+*fireworks/FireworksSuite#property().(prop)*prop€*7
+)fireworks/FireworksSuite#property().(x$3)  *x$3€*?
+)fireworks/FireworksSuite#checkProperty().*checkProperty€*<
+/fireworks/FireworksSuite#checkProperty().(prop)*prop€*
+local32 €*result€*
+local33*failure€*
+local34*labels€*
+local35*fallback€*
+local36 €*labels€*
+local37 €*e€*
+local38 €*labels€*
+local39 €*e€*
+local40 €*labels€2
+ 
+fireworks/2
+ munit/2"
+ org/scalacheck/Prop.2"
+ org/scalacheck/Prop#2
+ org/scalacheck/2
+ 
+org/20
+ &"org/scalacheck/Prop.propBoolean().2"
+ org/scalacheck/Prop.2
+ org/scalacheck/2
+ 
+org/2'
+ fireworks/FireworksSuite#22
+ $fireworks/FireworksSuite#`<init>`().2(
+% %munit/FunSuite#`<init>`().2
+ %munit/FunSuite#2,
+' :fireworks/FireworksGenerators#2$
+ munit/FunSuite#test().2.
+		  munit/Assertions#assertEquals().2(
+		 fireworks/Firework.next().2!
+		 fireworks/Firework.2
+		 #fireworks/Done.2
+	&	 *fireworks/Done.2B
+	[	 [4munit/internal/MacroCompat.LocationMacro#generate().2!
+	[	 [scala/`<:<`.refl().2B
+
+
+ 4munit/internal/MacroCompat.LocationMacro#generate().22
+ 
+$fireworks/FireworksSuite#property().2-
+	 org/scalacheck/Prop.forAll(+8).2"
+ org/scalacheck/Prop.2
+ local02 
+ #fireworks/Waiting#2(
+ fireworks/Firework.next().2!
+ fireworks/Firework.2
+ local02 
+ fireworks/Waiting#2!
+ %fireworks/Launched#2)
+. 4org/scalacheck/Prop.passed.2"
+) -org/scalacheck/Prop.2(
+ munit/Assertions#fail(+1).2B
+q q4munit/internal/MacroCompat.LocationMacro#generate().2'
+ scala/Predef.$conforms().2A
+ 3fireworks/FireworksGenerators#arbitraryGenerator().2=
+ /fireworks/FireworksGenerators#waitingGenerator.2;
+ -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+ 'org/scalacheck/util/Pretty.prettyAny().2
+ local12B
+ 4munit/internal/MacroCompat.LocationMacro#generate().22
+ 
+$fireworks/FireworksSuite#property().2-
+	 org/scalacheck/Prop.forAll(+8).2"
+ org/scalacheck/Prop.2
+ local22!
+ %fireworks/Launched#2(
+ fireworks/Firework.next().2!
+ fireworks/Firework.2
+ local22!
+ fireworks/Launched#2"
+ 'fireworks/Exploding#2)
+0 6org/scalacheck/Prop.passed.2"
++ /org/scalacheck/Prop.2(
+ munit/Assertions#fail(+1).2B
+s s4munit/internal/MacroCompat.LocationMacro#generate().2'
+ scala/Predef.$conforms().2A
+ 3fireworks/FireworksGenerators#arbitraryGenerator().2>
+ 0fireworks/FireworksGenerators#launchedGenerator.2;
+ -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+ 'org/scalacheck/util/Pretty.prettyAny().2
+ local32B
+ 4munit/internal/MacroCompat.LocationMacro#generate().22
+ 
+$fireworks/FireworksSuite#property().2-
+	 org/scalacheck/Prop.forAll(+8).2"
+ org/scalacheck/Prop.2
+ local42"
+ 'fireworks/Exploding#2(
+   fireworks/Firework.next().2!
+   fireworks/Firework.2
+   local42"
+!! fireworks/Exploding#2
+!!  fireworks/Done.2)
+!)! /org/scalacheck/Prop.passed.2"
+!$! (org/scalacheck/Prop.2(
+"" munit/Assertions#fail(+1).2B
+"_" _4munit/internal/MacroCompat.LocationMacro#generate().2'
+$$ scala/Predef.$conforms().2A
+$$ 3fireworks/FireworksGenerators#arbitraryGenerator().2?
+$$ 1fireworks/FireworksGenerators#explodingGenerator.2;
+$$ -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+$$ 'org/scalacheck/util/Pretty.prettyAny().2
+$$ local52B
+%% 4munit/internal/MacroCompat.LocationMacro#generate().22
+'' 
+$fireworks/FireworksSuite#property().2-
+(	( org/scalacheck/Prop.forAll(+8).2"
+(( org/scalacheck/Prop.2
+(( local62 
+(( #fireworks/Waiting#2*
+)) !org/scalacheck/Prop#`==>`().20
+)) "org/scalacheck/Prop.propBoolean().2 
+)) scala/Int#`>`(+3).2*
+)) fireworks/Waiting#countDown.2
+)) local62'
+** fireworks/Waiting#next().2
+** local62
+++ local72 
+++ #fireworks/Waiting#2.
+,,  munit/Assertions#assertEquals().2*
+,%, .fireworks/Waiting#countDown.2
+,, $local72 
+,B, Cscala/Int#`-`(+3).2*
+,8, Afireworks/Waiting#countDown.2
+,0, 7local62B
+,p, p4munit/internal/MacroCompat.LocationMacro#generate().2!
+,p, pscala/`<:<`.refl().2.
+--  munit/Assertions#assertEquals().2.
+-%- 2 fireworks/Waiting#startPosition.2
+-- $local72.
+-<- I fireworks/Waiting#startPosition.2
+-4- ;local62B
+-s- s4munit/internal/MacroCompat.LocationMacro#generate().2!
+-s- sscala/`<:<`.refl().2.
+..  munit/Assertions#assertEquals().22
+.%. 6$fireworks/Waiting#numberOfParticles.2
+.. $local722
+.@. Q$fireworks/Waiting#numberOfParticles.2
+.8. ?local62B
+.. 4munit/internal/MacroCompat.LocationMacro#generate().2!
+.. scala/`<:<`.refl().2.
+//  munit/Assertions#assertEquals().2/
+/%/ 3!fireworks/Waiting#particlesColor.2
+// $local72/
+/=/ K!fireworks/Waiting#particlesColor.2
+/5/ <local62B
+/v/ v4munit/internal/MacroCompat.LocationMacro#generate().2!
+/v/ vscala/`<:<`.refl().2)
+00 org/scalacheck/Prop.passed.2"
+00 org/scalacheck/Prop.2(
+22 munit/Assertions#fail(+1).2B
+2i2 i4munit/internal/MacroCompat.LocationMacro#generate().2'
+55 scala/Predef.$conforms().2A
+55 3fireworks/FireworksGenerators#arbitraryGenerator().2=
+55 /fireworks/FireworksGenerators#waitingGenerator.2;
+55 -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+55 'org/scalacheck/util/Pretty.prettyAny().2
+55 local82B
+66 4munit/internal/MacroCompat.LocationMacro#generate().22
+88 
+$fireworks/FireworksSuite#property().2-
+9	9 org/scalacheck/Prop.forAll(+8).2"
+99 org/scalacheck/Prop.2
+99 local92 
+99 #fireworks/Waiting#2*
+:: "org/scalacheck/Prop#`==>`().20
+:: "org/scalacheck/Prop.propBoolean().2!
+:: scala/Int#`<=`(+3).2*
+:: fireworks/Waiting#countDown.2
+:: local92'
+;; fireworks/Waiting#next().2
+;; local92
+<< local102!
+<< !fireworks/Launched#2.
+==  munit/Assertions#assertEquals().2*
+="= *fireworks/Launched#position.2
+== !local102.
+=4= A fireworks/Waiting#startPosition.2
+=,= 3local92D
+
+=Ÿ= Ÿ4munit/internal/MacroCompat.LocationMacro#generate().2#
+
+=Ÿ= Ÿscala/`<:<`.refl().2.
+>>  munit/Assertions#assertEquals().23
+>"> 3%fireworks/Launched#numberOfParticles.2
+>> !local1022
+>=> N$fireworks/Waiting#numberOfParticles.2
+>5> <local92D
+
+>£> £4munit/internal/MacroCompat.LocationMacro#generate().2#
+
+>£> £scala/`<:<`.refl().2.
+??  munit/Assertions#assertEquals().20
+?"? 0"fireworks/Launched#particlesColor.2
+?? !local102/
+?:? H!fireworks/Waiting#particlesColor.2
+?2? 9local92D
+
+?š? š4munit/internal/MacroCompat.LocationMacro#generate().2#
+
+?š? šscala/`<:<`.refl().2)
+@@ org/scalacheck/Prop.passed.2"
+@@ org/scalacheck/Prop.2(
+BB munit/Assertions#fail(+1).2B
+BjB j4munit/internal/MacroCompat.LocationMacro#generate().2'
+EE scala/Predef.$conforms().2A
+EE 3fireworks/FireworksGenerators#arbitraryGenerator().2=
+EE /fireworks/FireworksGenerators#waitingGenerator.2;
+EE -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+EE 'org/scalacheck/util/Pretty.prettyAny().2
+EE local112B
+FF 4munit/internal/MacroCompat.LocationMacro#generate().22
+HH 
+$fireworks/FireworksSuite#property().2-
+I	I org/scalacheck/Prop.forAll(+8).2"
+II org/scalacheck/Prop.2
+II local122!
+II %fireworks/Launched#2*
+JJ "org/scalacheck/Prop#`==>`().20
+JJ "org/scalacheck/Prop.propBoolean().2 
+JJ scala/Int#`>`(+3).2+
+JJ fireworks/Launched#countDown.2
+JJ local122(
+KK fireworks/Launched#next().2
+KK local122
+LL local132!
+LL %fireworks/Launched#2.
+MM  munit/Assertions#assertEquals().2+
+M&M /fireworks/Launched#countDown.2
+MM %local132 
+MDM Escala/Int#`-`(+3).2+
+M:M Cfireworks/Launched#countDown.2
+M1M 9local122B
+MrM r4munit/internal/MacroCompat.LocationMacro#generate().2!
+MrM rscala/`<:<`.refl().2.
+NN  munit/Assertions#assertEquals().2+
+N&N /fireworks/Launched#direction.2
+NN %local132+
+N:N Cfireworks/Launched#direction.2
+N1N 9local122B
+NiN i4munit/internal/MacroCompat.LocationMacro#generate().2!
+NiN iscala/`<:<`.refl().2.
+OO  munit/Assertions#assertEquals().23
+O&O 7%fireworks/Launched#numberOfParticles.2
+OO %local1323
+OBO S%fireworks/Launched#numberOfParticles.2
+O9O Alocal122D
+
+OO 4munit/internal/MacroCompat.LocationMacro#generate().2#
+
+OO scala/`<:<`.refl().2.
+PP  munit/Assertions#assertEquals().20
+P&P 4"fireworks/Launched#particlesColor.2
+PP %local1320
+P?P M"fireworks/Launched#particlesColor.2
+P6P >local122B
+PxP x4munit/internal/MacroCompat.LocationMacro#generate().2!
+PxP xscala/`<:<`.refl().2)
+QQ org/scalacheck/Prop.passed.2"
+QQ org/scalacheck/Prop.2(
+SS munit/Assertions#fail(+1).2B
+SjS j4munit/internal/MacroCompat.LocationMacro#generate().2'
+VV scala/Predef.$conforms().2A
+VV 3fireworks/FireworksGenerators#arbitraryGenerator().2>
+VV 0fireworks/FireworksGenerators#launchedGenerator.2;
+VV -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+VV 'org/scalacheck/util/Pretty.prettyAny().2
+VV local142B
+WW 4munit/internal/MacroCompat.LocationMacro#generate().22
+YY 
+$fireworks/FireworksSuite#property().2-
+Z	Z org/scalacheck/Prop.forAll(+8).2"
+ZZ org/scalacheck/Prop.2
+ZZ local152!
+ZZ %fireworks/Launched#2*
+[[ "org/scalacheck/Prop#`==>`().20
+[[ "org/scalacheck/Prop.propBoolean().2 
+[[ scala/Int#`>`(+3).2+
+[[ fireworks/Launched#countDown.2
+[[ local152(
+\\ fireworks/Launched#next().2
+\\ local152
+]] local162!
+]] %fireworks/Launched#2
+^^  local172+
+__ fireworks/Motion.movePoint().2
+__ fireworks/Motion.2*
+_(_ 0fireworks/Launched#position.2
+__ 'local152+
+_;_ Dfireworks/Launched#direction.2
+_2_ :local1521
+_O_ ^#fireworks/Settings.propulsionSpeed.2!
+_F_ Nfireworks/Settings.24
+`` &munit/Assertions#assertEqualsDouble().2$
+`5` 6doodle/core/Point#x().2*
+`,` 4fireworks/Launched#position.2
+`` +local162$
+`I` Jdoodle/core/Point#x().2
+`8` Hlocal172D
+
+`»` »4munit/internal/MacroCompat.LocationMacro#generate().24
+aa &munit/Assertions#assertEqualsDouble().2$
+a5a 6doodle/core/Point#y().2*
+a,a 4fireworks/Launched#position.2
+aa +local162$
+aIa Jdoodle/core/Point#y().2
+a8a Hlocal172D
+
+a»a »4munit/internal/MacroCompat.LocationMacro#generate().2)
+bb org/scalacheck/Prop.passed.2"
+bb org/scalacheck/Prop.2(
+dd munit/Assertions#fail(+1).2B
+djd j4munit/internal/MacroCompat.LocationMacro#generate().2'
+gg scala/Predef.$conforms().2A
+gg 3fireworks/FireworksGenerators#arbitraryGenerator().2>
+gg 0fireworks/FireworksGenerators#launchedGenerator.2;
+gg -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+gg 'org/scalacheck/util/Pretty.prettyAny().2
+gg local182B
+hh 4munit/internal/MacroCompat.LocationMacro#generate().22
+jj 
+$fireworks/FireworksSuite#property().2-
+k	k org/scalacheck/Prop.forAll(+8).2"
+kk org/scalacheck/Prop.2
+kk local192!
+kk %fireworks/Launched#2*
+l l #org/scalacheck/Prop#`==>`().20
+ll "org/scalacheck/Prop.propBoolean().2!
+ll scala/Int#`<=`(+3).2+
+ll fireworks/Launched#countDown.2
+ll local192(
+mm fireworks/Launched#next().2
+mm local192
+nn local202"
+nn #fireworks/Exploding#2.
+oo  munit/Assertions#assertEquals().2-
+o3o 7scala/collection/SeqOps#size().2(
+o-o 2fireworks/Particles#value.2,
+o#o ,fireworks/Exploding#particles.2
+oo "local2023
+oBo S%fireworks/Launched#numberOfParticles.2
+o9o Alocal192D
+
+oÅo Å4munit/internal/MacroCompat.LocationMacro#generate().2#
+
+oÅo Åscala/`<:<`.refl().2(
+pp munit/Assertions#assert().27
+p-p 3)scala/collection/immutable/List#forall().2(
+p'p ,fireworks/Particles#value.2,
+pp &fireworks/Exploding#particles.2
+pp local202
+p<p >scala/Any#`==`().2'
+p6p ;fireworks/Particle#color.20
+pHp V"fireworks/Launched#particlesColor.2
+p?p Glocal192D
+
+p·p ·4munit/internal/MacroCompat.LocationMacro#generate().2(
+qq munit/Assertions#assert().27
+q-q 3)scala/collection/immutable/List#forall().2(
+q'q ,fireworks/Particles#value.2,
+qq &fireworks/Exploding#particles.2
+qq local202
+q?q Ascala/Any#`==`().2*
+q6q >fireworks/Particle#position.2*
+qKq Sfireworks/Launched#position.2
+qBq Jlocal192D
+
+q®q ®4munit/internal/MacroCompat.LocationMacro#generate().2)
+rr org/scalacheck/Prop.passed.2"
+rr org/scalacheck/Prop.2(
+tt munit/Assertions#fail(+1).2B
+tkt k4munit/internal/MacroCompat.LocationMacro#generate().2'
+ww scala/Predef.$conforms().2A
+ww 3fireworks/FireworksGenerators#arbitraryGenerator().2>
+ww 0fireworks/FireworksGenerators#launchedGenerator.2;
+ww -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+ww 'org/scalacheck/util/Pretty.prettyAny().2
+ww local212B
+xx 4munit/internal/MacroCompat.LocationMacro#generate().22
+zz 
+$fireworks/FireworksSuite#property().2-
+{	{ org/scalacheck/Prop.forAll(+8).2"
+{{ org/scalacheck/Prop.2
+{{ local222"
+{{ 'fireworks/Exploding#2*
+| | #org/scalacheck/Prop#`==>`().20
+|| "org/scalacheck/Prop.propBoolean().2 
+|| scala/Int#`>`(+3).2,
+|| fireworks/Exploding#countDown.2
+|| local222)
+}} fireworks/Exploding#next().2
+}} local222
+~~ local232"
+~~ 'fireworks/Exploding#2.
+  munit/Assertions#assertEquals().2,
+' 0fireworks/Exploding#countDown.2
+ &local232 
+F Gscala/Int#`-`(+3).2,
+< Efireworks/Exploding#countDown.2
+2 ;local222B
+t t4munit/internal/MacroCompat.LocationMacro#generate().2!
+t tscala/`<:<`.refl().20
+
+€€  munit/Assertions#assertEquals().2.
+
+€'€ 0fireworks/Exploding#particles.2
+
+€€ &local232+
+
+€F€ Jfireworks/Particles#next().2.
+
+€<€ Efireworks/Exploding#particles.2
+
+€2€ ;local222D
+
+€~€ ~4munit/internal/MacroCompat.LocationMacro#generate().2#
+
+€~€ ~scala/`<:<`.refl().2+
+
+ org/scalacheck/Prop.passed.2$
+
+ org/scalacheck/Prop.2*
+
+ƒƒ munit/Assertions#fail(+1).2D
+
+ƒkƒ k4munit/internal/MacroCompat.LocationMacro#generate().2)
+
+†† scala/Predef.$conforms().2C
+
+†† 3fireworks/FireworksGenerators#arbitraryGenerator().2A
+
+†† 1fireworks/FireworksGenerators#explodingGenerator.2=
+
+†† -org/scalacheck/ShrinkLowPriority#shrinkAny().27
+
+†† 'org/scalacheck/util/Pretty.prettyAny().2
+
+†† local242D
+
+‡‡ 4munit/internal/MacroCompat.LocationMacro#generate().24
+
+‰‰ 
+$fireworks/FireworksSuite#property().2/
+
+Š	Š org/scalacheck/Prop.forAll(+8).2$
+
+ŠŠ org/scalacheck/Prop.2
+
+ŠŠ local252$
+
+ŠŠ 'fireworks/Exploding#2,
+
+‹!‹ $org/scalacheck/Prop#`==>`().22
+
+‹‹ "org/scalacheck/Prop.propBoolean().2#
+
+‹‹ scala/Int#`<=`(+3).2.
+
+‹‹ fireworks/Exploding#countDown.2
+
+‹‹ local252+
+
+ŒŒ fireworks/Exploding#next().2
+
+ŒŒ local252
+
+ fireworks/Done.2+
+
+ "org/scalacheck/Prop.passed.2$
+
+ org/scalacheck/Prop.2*
+
+ŽŽ munit/Assertions#fail(+1).2D
+
+ŽhŽ h4munit/internal/MacroCompat.LocationMacro#generate().2)
+
+‘‘ scala/Predef.$conforms().2C
+
+‘‘ 3fireworks/FireworksGenerators#arbitraryGenerator().2A
+
+‘‘ 1fireworks/FireworksGenerators#explodingGenerator.2=
+
+‘‘ -org/scalacheck/ShrinkLowPriority#shrinkAny().27
+
+‘‘ 'org/scalacheck/util/Pretty.prettyAny().2
+
+‘‘ local262D
+
+’’ 4munit/internal/MacroCompat.LocationMacro#generate().24
+
+”” 
+$fireworks/FireworksSuite#property().2/
+
+•	• org/scalacheck/Prop.forAll(+8).2$
+
+•• org/scalacheck/Prop.2
+
+•• local272#
+
+•• %fireworks/Particle#2
+
+–
+– local282*
+
+–"– &fireworks/Particle#next().2
+
+–– !local272
+
+—
+— !local292(
+
+—+— /fireworks/Motion.drag().2!
+
+—$— *fireworks/Motion.23
+
+—9— H#fireworks/Particle#horizontalSpeed.2
+
+—0— 8local272
+
+˜
+˜ local302(
+
+˜)˜ -fireworks/Motion.drag().2!
+
+˜"˜ (fireworks/Motion.2%
+
+˜E˜ Fscala/Double#`-`(+6).21
+
+˜7˜ D!fireworks/Particle#verticalSpeed.2
+
+˜.˜ 6local272+
+
+˜P˜ Wfireworks/Settings.gravity.2#
+
+˜G˜ Ofireworks/Settings.26
+
+™™ &munit/Assertions#assertEqualsDouble().23
+
+™&™ 5#fireworks/Particle#horizontalSpeed.2
+
+™™ %local282
+
+™7™ Nlocal292F
+™”™ ”4munit/internal/MacroCompat.LocationMacro#generate().26
+
+šš &munit/Assertions#assertEqualsDouble().21
+
+š&š 3!fireworks/Particle#verticalSpeed.2
+
+šš %local282
+
+š5š Jlocal302F
+š•š •4munit/internal/MacroCompat.LocationMacro#generate().20
+
+››  munit/Assertions#assertEquals().2)
+
+› › %fireworks/Particle#color.2
+
+›› local282)
+
+›0› 5fireworks/Particle#color.2
+
+›'› /local272D
+
+›W› W4munit/internal/MacroCompat.LocationMacro#generate().2#
+
+›W› Wscala/`<:<`.refl().2+
+
+œœ org/scalacheck/Prop.passed.2$
+
+œœ 
+org/scalacheck/Prop.2)
+
+ scala/Predef.$conforms().2C
+
+ 3fireworks/FireworksGenerators#arbitraryGenerator().2@
+
+ 0fireworks/FireworksGenerators#particleGenerator.2=
+
+ -org/scalacheck/ShrinkLowPriority#shrinkAny().27
+
+ 'org/scalacheck/util/Pretty.prettyAny().2
+
+ local312D
+
+žž 4munit/internal/MacroCompat.LocationMacro#generate().24
+
+   $fireworks/FireworksSuite#property().2:
+
+   *fireworks/FireworksSuite#property().(name)2$
+
+   scala/Predef.String#2:
+
+   !*fireworks/FireworksSuite#property().(prop)2$
+
+ &  *org/scalacheck/Prop#2
+
+ 2  :munit/Location#2&
+
+¡¡ munit/FunSuite#test().2:
+
+¡	¡ *fireworks/FireworksSuite#property().(name)29
+
+¡¡ )fireworks/FireworksSuite#checkProperty().2:
+
+¡¡ !*fireworks/FireworksSuite#property().(prop)29
+
+¡#¡ #)fireworks/FireworksSuite#property().(x$3)29
+
+¤¤ )fireworks/FireworksSuite#checkProperty().2?
+
+¤¤ /fireworks/FireworksSuite#checkProperty().(prop)2$
+
+¤¤ org/scalacheck/Prop#2
+
+¤!¤ %scala/Unit#2
+
+¥¥ local322.
+
+¥%¥ *org/scalacheck/Test.check(+1).2$
+
+¥ ¥ $org/scalacheck/Test.2
+
+¥¥ org/scalacheck/2
+
+¥¥ org/27
+
+¥J¥ Q'org/scalacheck/Test.Parameters.default.2/
+
+¥?¥ Iorg/scalacheck/Test.Parameters.2$
+
+¥:¥ >org/scalacheck/Test.2
+
+¥/¥ 9org/scalacheck/2
+
+¥+¥ .org/2?
+
+¥S¥ W/fireworks/FireworksSuite#checkProperty().(prop)2
+
+¦¦ local332
+
+¦¦ local342!
+
+¦¦ scala/Predef.Set#2$
+
+¦¦ "scala/Predef.String#2
+
+¦%¦ -local352$
+
+¦/¦ 5scala/Predef.String#2
+
+¦8¦ ?scala/Nothing#2;
+
+§§ +scala/collection/IterableOnceOps#isEmpty().2
+
+§	§ local3426
+
+§1§ 1&java/lang/AssertionError#`<init>`(+2).2)
+
+§#§ 1java/lang/AssertionError#2
+
+§2§ :local3526
+
+¨¨ &java/lang/AssertionError#`<init>`(+2).2)
+
+¨¨ java/lang/AssertionError#2>
+
+¨'¨ /.scala/collection/IterableOnceOps#mkString(+1).2
+
+¨ ¨ &local3422
+
+©© "org/scalacheck/Test.Result#status.2
+
+©© 
+local322+
+
+ªª %org/scalacheck/Test.Passed.2$
+
+ªª org/scalacheck/Test.2
+
+ªª org/scalacheck/2
+
+ªª org/2+
+
+ª?ª Eorg/scalacheck/Test.Proved#2$
+
+ª:ª >org/scalacheck/Test.2
+
+ª/ª 9org/scalacheck/2
+
+ª+ª .org/25
+
+«%« %%org/scalacheck/Test.Failed.unapply().2+
+
+«« %org/scalacheck/Test.Failed.2$
+
+«« org/scalacheck/Test.2
+
+«« org/scalacheck/2
+
+«« org/2
+
+«)« /local362
+
+«4« ;local332
+
+«<« Blocal362<
+
+¬,¬ ,,org/scalacheck/Test.PropException.unapply().22
+
+¬¬ ,"org/scalacheck/Test.PropException.2$
+
+¬¬ org/scalacheck/Test.2
+
+¬¬ org/scalacheck/2
+
+¬¬ org/2
+
+¬0¬ 1local372$
+
+¬9¬ Fmunit/FailException#2
+
+¬3¬ 8munit/2
+
+¬H¬ Nlocal382
+
+¬S¬ Zlocal332
+
+¬[¬ alocal382,
+
+¬e¬ lmunit/FailException#message.2
+
+¬c¬ dlocal372<
+
+­,­ ,,org/scalacheck/Test.PropException.unapply().22
+
+­­ ,"org/scalacheck/Test.PropException.2$
+
+­­ org/scalacheck/Test.2
+
+­­ org/scalacheck/2
+
+­­ org/2
+
+­0­ 1local392
+
+­3­ 9local402
+
+­>­ Elocal332
+
+­F­ Llocal402*
+­†­ ‡scala/StringContext#s().2,
+
+­P­ Pscala/StringContext.apply().2
+­…­ †local392.
+
+®® (org/scalacheck/Test.Exhausted.2$
+
+®® org/scalacheck/Test.2
+
+®® org/scalacheck/2
+
+®® org/2
+
+®,® 3local3327
+
+®8® ='scala/collection/immutable/Set.empty().2!
+
+®4® 7scala/Predef.Set.PZ A806BE771FF2FA9111AFB4082877072F

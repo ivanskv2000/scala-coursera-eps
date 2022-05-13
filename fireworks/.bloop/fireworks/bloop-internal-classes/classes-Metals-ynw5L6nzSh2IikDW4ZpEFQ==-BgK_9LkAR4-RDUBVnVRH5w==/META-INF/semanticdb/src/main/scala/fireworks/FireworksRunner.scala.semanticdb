@@ -1,0 +1,185 @@
+
+µ5.src/main/scala/fireworks/FireworksRunner.scala*6
+"fireworks/FireworksRunner$package. *	fireworks€*4
+(fireworks/FireworksRunner$package.run().*run€*
+local0 €*initFireworks€*#
+local1 €*fireworksOverTime€*
+local2*	fireworks€*"
+local3 €*updatedFireworks€*
+local4*firework€*
+local5 €*other€*
+local6*launchedPicture€*
+local7*launched€*
+local8*explodingPicture€*
+local9*	exploding€*
+local10*particle€*
+local11 €*pictures€*
+local12*	fireworks€*
+local13*firework€*
+local14 €*launched€*
+local15 €*	exploding€*
+local16 €*frame€*
+fireworks/run# *run€*+
+fireworks/run#`<init>`(). €@*<init>€*%
+fireworks/run#main(). € *main€*(
+fireworks/run#main().(args)*args€*
+local17 €*error€2
+ 
+fireworks/2 
+ doodle/core/Color.2 
+ doodle/core/Color#2
+ doodle/core/2
+ doodle/2
+ doodle/java2d/2
+ doodle/2%
+ doodle/interact/syntax/2
+ doodle/interact/2
+ doodle/2
+ doodle/syntax/2
+ doodle/2(
+  monix/reactive/Observable.2(
+  monix/reactive/Observable#2
+ monix/reactive/2
+ monix/2*
+ cats/instances/package.unit.2
+ cats/instances/2
+ cats/2*
+ cats/instances/package.list.2
+ cats/instances/2
+ cats/2,
+"fireworks/FireworksRunner$package.2
+ scala/main#26
+
+ (fireworks/FireworksRunner$package.run().2
+ scala/Unit#2
+ local02@
+ 2scala/collection/StrictOptimizedSeqFactory#fill().2!
+ scala/package.List.2(
+- 1fireworks/Firework.init().2!
+$ ,fireworks/Firework.2
+ local121
+ #monix/reactive/Observable.unfold().2(
+ monix/reactive/Observable.2
+ #local02
+' 0local228
+ *scala/collection/immutable/List#isEmpty().2
+	 local22
+ scala/None.2
+ local328
+ *scala/collection/immutable/List#flatMap().2
+
+ local22
+ &local42(
+ fireworks/Firework.next().2!
+ fireworks/Firework.2
+ "local42
+ fireworks/Done.2
+  scala/None.2
+   local52!
+     scala/Some.apply().2
+    scala/Some.2
+ !  &local52!
+"" scala/Some.apply().2
+"" scala/Some.2#
+"" scala/Tuple2.apply().2
+"" local22
+"" )local32
+%% local62
+%% local72!
+% % (fireworks/Launched#2,
+%+% 2doodle/java2d/package.Picture#2
+%3% 7scala/Unit#2A
+)) 	3doodle/syntax/LayoutSyntax#LayoutPictureOps#at(+3).2<
+&& .doodle/syntax/LayoutSyntax#LayoutPictureOps().2D
+(( 6doodle/syntax/StyleSyntax#StylePictureOps#fillColor().2:
+&& ,doodle/syntax/StyleSyntax#StylePictureOps().21
+'' #doodle/syntax/ShapeSyntax#circle().2*
+&& 	doodle/syntax/package.shape.2,
+'' doodle/java2d/package.Algebra#2,
+'' doodle/java2d/package.Drawing#2;
+' ' (-doodle/syntax/ShapeSyntax#circle().(diameter)2<
+(( +.doodle/core/CommonColors#lightGoldenrodYellow.2 
+(( doodle/core/Color.2*
+)) fireworks/Launched#position.2
+)
+) local72
+++ local82
+++  local92"
++"+ +fireworks/Exploding#2,
++.+ 5doodle/java2d/package.Picture#2
++6+ :scala/Unit#2?
+11 1doodle/syntax/TraverseSyntax#TraverseOps#allOn().29
+,, +doodle/syntax/TraverseSyntax#TraverseOps().24
+,, !&scala/collection/immutable/List#map().2(
+,, fireworks/Particles#value.2,
+,, fireworks/Exploding#particles.2
+,, local92
+,$, ,local102A
+0	0 3doodle/syntax/LayoutSyntax#LayoutPictureOps#at(+3).2<
+-- .doodle/syntax/LayoutSyntax#LayoutPictureOps().2D
+/	/ 6doodle/syntax/StyleSyntax#StylePictureOps#fillColor().2:
+-- ,doodle/syntax/StyleSyntax#StylePictureOps().21
+.	. #doodle/syntax/ShapeSyntax#circle().2*
+-- doodle/syntax/package.shape.2,
+.. doodle/java2d/package.Algebra#2,
+..  doodle/java2d/package.Drawing#2;
+.". *-doodle/syntax/ShapeSyntax#circle().(diameter)2'
+// !fireworks/Particle#color.2
+// local102*
+00 fireworks/Particle#position.2
+00 local102C
+11 5cats/instances/ListInstances#catsStdInstancesForList.2
+33 local112.
+44  monix/reactive/Observable#map().2
+44 local12
+44 %local122?
+;; 1doodle/syntax/TraverseSyntax#TraverseOps#allOn().29
+55 +doodle/syntax/TraverseSyntax#TraverseOps().24
+55 &scala/collection/immutable/List#map().2
+55 local122
+55 local132
+66 local132 
+77 fireworks/Waiting#20
+7-7 2"doodle/syntax/ShapeSyntax#empty().2*
+7'7 ,doodle/syntax/package.shape.2,
+737 :doodle/java2d/package.Algebra#2,
+7<7 Cdoodle/java2d/package.Drawing#2
+88 fireworks/Done.20
+8-8 2"doodle/syntax/ShapeSyntax#empty().2*
+8'8 ,doodle/syntax/package.shape.2,
+838 :doodle/java2d/package.Algebra#2,
+8<8 Cdoodle/java2d/package.Drawing#2
+99 local142!
+99 !fireworks/Launched#2
+9'9 6local62
+979 ?local142
+:: local152"
+:: #fireworks/Exploding#2
+:': 7local82
+:8: Alocal152C
+;; 5cats/instances/ListInstances#catsStdInstancesForList.2
+>> local1628
+>L> V*doodle/java2d/effect/Frame#background(+1).20
+>> "doodle/java2d/effect/Frame.size().2*
+>> doodle/java2d/package.Frame.2#
+>(> 0scala/Int#toDouble().2'
+>"> 'fireworks/Settings.width.2!
+>> !fireworks/Settings.2#
+>B> Jscala/Int#toDouble().2(
+>;> Afireworks/Settings.height.2!
+>2> :fireworks/Settings.2-
+>]> bdoodle/core/CommonColors#black.2 
+>W> \doodle/core/Color.2T
+?? Fdoodle/interact/syntax/AnimationRendererSyntax#AnimateObservableOps().2
+?? 
+local112
+?? local162<
+?? .doodle/java2d/package.java2dAnimationRenderer.23
+?? %doodle/java2d/package.java2dRenderer.2O
+?? Adoodle/java2d/effect/Java2dExplorerAtoms#java2dExplorerScheduler.2N
+?? @cats/kernel/instances/UnitInstances#catsKernelStdAlgebraForUnit.2
+fireworks/run#2#
+fireworks/run#`<init>`().22
+(fireworks/FireworksRunner$package.run().23
+)scala/util/CommandLineParser.showError().2
+local17PZ 1F037F6D75B9DBC0282514B80AE8947F

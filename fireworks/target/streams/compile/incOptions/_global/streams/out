@@ -1,2 +1,47 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/ivanskv_mercaux/Desktop/sctest/fireworks/target/scala-3.0.0/classes.bak[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/ivanskv_mercaux/Desktop/sctest/fireworks/target/scala-3.0.0/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/target/scala-3.0.0/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Done$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Firework$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Done.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Motion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Settings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Waiting.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Firework.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Particles.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exploding$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Launched$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Motion$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Launched.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	run.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Particles$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FireworksRunner$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Waiting$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exploding.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Particle$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FireworksRunner$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Particle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Settings$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Done$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Firework$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Done.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Motion.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Settings.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Waiting.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Firework.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Particles.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exploding$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Launched$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Motion$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Launched.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	run.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Particles$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FireworksRunner$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Waiting$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exploding.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Particle$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FireworksRunner$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Particle.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Settings$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/target/scala-3.0.0/classes.bak[0m

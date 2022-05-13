@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/Users/ivanskv_mercaux/Desktop/sctest/fireworks/"), "fireworks")...
-[debug] Done updating ProjectRef(uri("file:/Users/ivanskv_mercaux/Desktop/sctest/fireworks/"), "fireworks")
+[warn] doodle-explore_2.13-0.9.21-sources.jar no longer exists at /Users/iaskvortsov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/creativescala/doodle-explore_2.13/0.9.21/doodle-explore_2.13-0.9.21-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/"), "fireworks")...
+[debug] Done updating ProjectRef(uri("file:/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/"), "fireworks")

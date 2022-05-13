@@ -1,0 +1,254 @@
+
+ËG2src/test/scala/fireworks/FireworksGenerators.scala*:
+fireworks/FireworksGenerators#*FireworksGenerators€*;
+)fireworks/FireworksGenerators#`<init>`(). €@*<init>€*G
+-fireworks/FireworksGenerators#pointGenerator. è*pointGenerator€*
+local0*x€*
+local1*y€*G
+-fireworks/FireworksGenerators#angleGenerator. è*angleGenerator€*
+local2*theta€*K
+/fireworks/FireworksGenerators#waitingGenerator. è*waitingGenerator€*
+local3*color€* 
+local4*numberOfParticles€*
+local5*position€*
+local6*	countDown€*M
+0fireworks/FireworksGenerators#launchedGenerator. è*launchedGenerator€*
+local7*color€* 
+local8*numberOfParticles€*
+local9*position€*
+local10*	direction€*
+local11*	countDown€*M
+0fireworks/FireworksGenerators#particleGenerator. è*particleGenerator€*
+local12*hSpeed€*
+local13*vSpeed€*
+local14*position€*
+local15*color€*O
+1fireworks/FireworksGenerators#particlesGenerator. è*particlesGenerator€*
+local16*	particles€*O
+1fireworks/FireworksGenerators#explodingGenerator. è*explodingGenerator€*
+local17*	particles€*
+local18*	countDown€*P
+3fireworks/FireworksGenerators#arbitraryGenerator(). (*arbitraryGenerator€*@
+6fireworks/FireworksGenerators#arbitraryGenerator().[A]	*A€*F
+8fireworks/FireworksGenerators#arbitraryGenerator().(gen)  *gen€2
+ 
+fireworks/2 
+ doodle/core/Angle.2 
+ doodle/core/Angle#2 
+  doodle/core/Point.2 
+  doodle/core/Point#2
+ doodle/core/2
+ doodle/2'
+  org/scalacheck/Arbitrary.2'
+  org/scalacheck/Arbitrary#2!
+" %org/scalacheck/Gen.2!
+" %org/scalacheck/Gen#2"
+' +org/scalacheck/Prop.2"
+' +org/scalacheck/Prop#2"
+- 1org/scalacheck/Test.2
+ org/scalacheck/2
+ 
+org/2,
+ fireworks/FireworksGenerators#27
+ )fireworks/FireworksGenerators#`<init>`().2;
+ -fireworks/FireworksGenerators#pointGenerator.2!
+ org/scalacheck/Gen#2 
+ !doodle/core/Point#2+
+	#	 #org/scalacheck/Gen#flatMap().2>
+		 0org/scalacheck/ArbitraryLowPriority#arbitrary().2'
+		 org/scalacheck/Arbitrary.2
+		 "
+scala/Int#29
+	#	 #+org/scalacheck/ArbitraryLowPriority#arbInt.2
+		 local02'
+
+#
+ #org/scalacheck/Gen#map().2>
+
+
+ 0org/scalacheck/ArbitraryLowPriority#arbitrary().2'
+
+
+ org/scalacheck/Arbitrary.2
+
+
+ "
+scala/Int#29
+
+#
+ #+org/scalacheck/ArbitraryLowPriority#arbInt.2
+
+
+ local12(
+ doodle/core/Point.apply().2 
+
+ doodle/core/Point.2#
+ scala/Int#toDouble().2
+ local02#
+ &scala/Int#toDouble().2
+ local12;
+ -fireworks/FireworksGenerators#angleGenerator.2!
+ org/scalacheck/Gen#2 
+ !doodle/core/Angle#2'
+. .org/scalacheck/Gen#map().2-
+ org/scalacheck/Gen.chooseNum().2!
+ org/scalacheck/Gen.2#
+* +scala/Double#`*`(+3).2$
+' )scala/math/package.Pi.2
+" &scala/math/24
+. .&scala/math/Numeric.DoubleIsFractional.25
+. .'org/scalacheck/Gen.Choose.chooseDouble.2
+ local22*
+ doodle/core/Angle.radians().2 
+
+ doodle/core/Angle.2
+ local22=
+ /fireworks/FireworksGenerators#waitingGenerator.2!
+ org/scalacheck/Gen#2 
+ %fireworks/Waiting#2+
+/ /org/scalacheck/Gen#flatMap().2+
+ org/scalacheck/Gen.oneOf(+1).2!
+ org/scalacheck/Gen.20
+) ."scala/collection/ArrayOps#toSeq().2)
+ scala/Predef.refArrayOps().2(
+" (fireworks/Settings.colors.2!
+ !fireworks/Settings.2
+ local32+
+* *org/scalacheck/Gen#flatMap().2*
+ %org/scalacheck/Gen.posNum().2!
+ org/scalacheck/Gen.2
+& )
+scala/Int#2/
+* *!scala/math/Numeric.IntIsIntegral.22
+* *$org/scalacheck/Gen.Choose.chooseInt.2
+ local42+
+   org/scalacheck/Gen#flatMap().2;
+  -fireworks/FireworksGenerators#pointGenerator.2
+ local52'
++ +org/scalacheck/Gen#map().2>
+ &0org/scalacheck/ArbitraryLowPriority#arbitrary().2'
+ org/scalacheck/Arbitrary.2
+' *
+scala/Int#29
++ ++org/scalacheck/ArbitraryLowPriority#arbInt.2
+ local62(
+ fireworks/Waiting.apply().2 
+
+ fireworks/Waiting.2
+ local62
+ %local52
+' 8local42
+: ?local32>
+ 0fireworks/FireworksGenerators#launchedGenerator.2!
+ org/scalacheck/Gen#2!
+ 'fireworks/Launched#2+
+/ /org/scalacheck/Gen#flatMap().2+
+ org/scalacheck/Gen.oneOf(+1).2!
+ org/scalacheck/Gen.20
+) ."scala/collection/ArrayOps#toSeq().2)
+ scala/Predef.refArrayOps().2(
+" (fireworks/Settings.colors.2!
+ !fireworks/Settings.2
+ local72+
+* *org/scalacheck/Gen#flatMap().2*
+ %org/scalacheck/Gen.posNum().2!
+ org/scalacheck/Gen.2
+& )
+scala/Int#2/
+* *!scala/math/Numeric.IntIsIntegral.22
+* *$org/scalacheck/Gen.Choose.chooseInt.2
+ local82+
+   org/scalacheck/Gen#flatMap().2;
+  -fireworks/FireworksGenerators#pointGenerator.2
+ local92+
+! !org/scalacheck/Gen#flatMap().2;
+ !-fireworks/FireworksGenerators#angleGenerator.2
+ local102'
+ +  +org/scalacheck/Gen#map().2>
+   &0org/scalacheck/ArbitraryLowPriority#arbitrary().2'
+   org/scalacheck/Arbitrary.2
+ '  *
+scala/Int#29
+ +  ++org/scalacheck/ArbitraryLowPriority#arbInt.2
+   local112)
+!! fireworks/Launched.apply().2!
+!
+! fireworks/Launched.2
+!! local112
+!! &local92
+!(! 1local102
+!3! Dlocal82
+!F! Klocal72>
+## 0fireworks/FireworksGenerators#particleGenerator.2!
+## org/scalacheck/Gen#2!
+## 'fireworks/Particle#2+
+%+% +org/scalacheck/Gen#flatMap().2>
+%% #0org/scalacheck/ArbitraryLowPriority#arbitrary().2'
+%% org/scalacheck/Arbitrary.2
+%$% *scala/Double#2<
+%+% +.org/scalacheck/ArbitraryLowPriority#arbDouble.2
+%% local122+
+&+& +org/scalacheck/Gen#flatMap().2>
+&& #0org/scalacheck/ArbitraryLowPriority#arbitrary().2'
+&& org/scalacheck/Arbitrary.2
+&$& *scala/Double#2<
+&+& +.org/scalacheck/ArbitraryLowPriority#arbDouble.2
+&& local132+
+' '  org/scalacheck/Gen#flatMap().2;
+''  -fireworks/FireworksGenerators#pointGenerator.2
+'' local142'
+(/( /org/scalacheck/Gen#map().2+
+(( org/scalacheck/Gen.oneOf(+1).2!
+(( org/scalacheck/Gen.20
+()( ."scala/collection/ArrayOps#toSeq().2)
+(( scala/Predef.refArrayOps().2(
+("( (fireworks/Settings.colors.2!
+(( !fireworks/Settings.2
+(( local152)
+)) fireworks/Particle.apply().2!
+)
+) fireworks/Particle.2
+)) local122
+)) !local132
+)#) +local142
+)-) 2local152?
+++ 1fireworks/FireworksGenerators#particlesGenerator.2!
+++ org/scalacheck/Gen#2"
++ + )fireworks/Particles#2'
+-8- 8org/scalacheck/Gen#map().22
+-- %$org/scalacheck/Gen.nonEmptyListOf().2!
+-- org/scalacheck/Gen.2>
+-&- 70fireworks/FireworksGenerators#particleGenerator.2
+-- local162*
+.. fireworks/Particles.apply().2"
+.
+. fireworks/Particles.2
+.. local162?
+00 1fireworks/FireworksGenerators#explodingGenerator.2!
+00 org/scalacheck/Gen#2"
+0 0 )fireworks/Exploding#2+
+2%2 %org/scalacheck/Gen#flatMap().2?
+22 %1fireworks/FireworksGenerators#particlesGenerator.2
+22 local172'
+3+3 +org/scalacheck/Gen#map().2>
+33 &0org/scalacheck/ArbitraryLowPriority#arbitrary().2'
+33 org/scalacheck/Arbitrary.2
+3'3 *
+scala/Int#29
+3+3 ++org/scalacheck/ArbitraryLowPriority#arbInt.2
+33 local182*
+44 fireworks/Exploding.apply().2"
+4
+4 fireworks/Exploding.2
+44 local182
+44 (local172A
+66 3fireworks/FireworksGenerators#arbitraryGenerator().2D
+66 6fireworks/FireworksGenerators#arbitraryGenerator().[A]2F
+6$6 '8fireworks/FireworksGenerators#arbitraryGenerator().(gen)2!
+6)6 ,org/scalacheck/Gen#2D
+6-6 .6fireworks/FireworksGenerators#arbitraryGenerator().[A]2'
+626 ;org/scalacheck/Arbitrary#2D
+6<6 =6fireworks/FireworksGenerators#arbitraryGenerator().[A]2:
+6J6 J,org/scalacheck/ArbitraryLowPriority#apply().2'
+6A6 Jorg/scalacheck/Arbitrary.2F
+6K6 N8fireworks/FireworksGenerators#arbitraryGenerator().(gen)PZ DCDA12890512EC7164EC3FF570CAA89D

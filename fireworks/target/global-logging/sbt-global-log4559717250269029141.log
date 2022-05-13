@@ -1,0 +1,184 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.3 (Oracle Corporation Java 11.0.15.1)
+[debug] Load.defaultLoad until apply took 371.521605ms
+[debug]                       Load.loadUnit: plugins took 70.611655ms
+[debug]                       Load.loadUnit: defsScala took 0.340218ms
+[debug] [Loading] Scanning directory /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/project
+[debug]                         Load.loadUnit: mkEval took 8.659692ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.676007 ms
+[info] loading settings for project fireworks-build-build-build from metals.sbt ...
+[debug]                           Load.resolveProject(fireworks-build-build-build) took 63.476041ms
+[debug]                         Load.loadTransitive: finalizeProject(Project(id fireworks-build-build-build, base: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/project, plugins: List(<none>))) took 116.554044ms
+[debug] [Loading] Done in /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/project, returning: (fireworks-build-build-build)
+[debug]                       Load.loadUnit: loadedProjectsRaw took 352.882395ms
+[debug]                       Load.loadUnit: cleanEvalClasses took 7.07804ms
+[debug]                     Load.loadUnit(file:/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/project/, ...) took 438.089016ms
+[debug]                   Load.apply: load took 965.630093ms
+[debug]                   Load.apply: resolveProjects took 6.135775ms
+[debug]                   Load.apply: finalTransforms took 63.744205ms
+[debug]                   Load.apply: config.delegates took 7.543339ms
+[debug]                   Load.apply: Def.make(settings)... took 370.381684ms
+[debug]                   Load.apply: structureIndex took 84.050197ms
+[debug]                   Load.apply: mkStreams took 1.457273ms
+[info] loading project definition from /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                 Load.loadUnit: plugins took 2485.363516ms
+[debug]                 Load.loadUnit: defsScala took 0.006565ms
+[debug] [Loading] Scanning directory /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project
+[debug]                   Load.loadUnit: mkEval took 0.241974ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.066066 ms
+[info] loading settings for project fireworks-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(fireworks-build-build) took 18.680193ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id fireworks-build-build, base: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project, plugins: List(<none>))) took 21.332868ms
+[debug] [Loading] Done in /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project, returning: (fireworks-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 31.095762ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 0.574591ms
+[debug]               Load.loadUnit(file:/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/, ...) took 2517.887105ms
+[debug]             Load.apply: load took 2519.363702ms
+[debug]             Load.apply: resolveProjects took 0.103013ms
+[debug]             Load.apply: finalTransforms took 19.379071ms
+[debug]             Load.apply: config.delegates took 0.432188ms
+[debug]             Load.apply: Def.make(settings)... took 76.071018ms
+[debug]             Load.apply: structureIndex took 24.874529ms
+[debug]             Load.apply: mkStreams took 0.002336ms
+[info] loading project definition from /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/fireworks-build-build.json
+[success] Total time: 2 s, completed 12 мая 2022 г., 16:05:11
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 4866.125154ms
+[debug]           Load.loadUnit: defsScala took 0.004728ms
+[debug] [Loading] Scanning directory /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project
+[debug]             Load.loadUnit: mkEval took 0.247687ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.220879 ms
+[info] loading settings for project fireworks-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+[debug]               Load.resolveProject(fireworks-build) took 19.535561ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id fireworks-build, base: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project, plugins: List(<none>))) took 21.322099ms
+[debug] [Loading] Done in /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project, returning: (fireworks-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 60.453991ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.439609ms
+[debug]         Load.loadUnit(file:/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/, ...) took 4928.961106ms
+[debug]       Load.apply: load took 4930.216967ms
+[debug]       Load.apply: resolveProjects took 0.09986ms
+[debug]       Load.apply: finalTransforms took 12.75832ms
+[debug]       Load.apply: config.delegates took 0.2877ms
+[debug]       Load.apply: Def.make(settings)... took 58.517778ms
+[debug]       Load.apply: structureIndex took 28.649424ms
+[debug]       Load.apply: mkStreams took 0.00199ms
+[info] loading project definition from /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/fireworks-build.json
+[success] Total time: 1 s, completed 12 мая 2022 г., 16:05:12
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6389.760866ms
+[debug]     Load.loadUnit: defsScala took 0.010567ms
+[debug] [Loading] Scanning directory /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks
+[debug]       Load.loadUnit: mkEval took 0.179393ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(ch.epfl.lamp.StudentTasks), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(scalafix.sbt.ScalafixPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(scalafix.sbt.ScalafixTestkitPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(ch.epfl.lamp.MOOCSettings),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(ch.epfl.lamp.StudentTasks),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(ch.epfl.lamp.StudentTasks),Set(Atom(ch.epfl.lamp.MOOCSettings)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scalafix.sbt.ScalafixPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,ch.epfl.lamp.StudentTasks,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,ch.epfl.lamp.MOOCSettings,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,scalafix.sbt.ScalafixPlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.52878 ms
+[info] loading settings for project fireworks from assignment.sbt,build.sbt ...
+[debug]         Load.resolveProject(fireworks) took 26.614453ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id fireworks, base: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks, plugins: List(<none>))) took 29.230806ms
+[debug] [Loading] Done in /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks, returning: (fireworks)
+[debug]     Load.loadUnit: loadedProjectsRaw took 88.871647ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.687779ms
+[debug]   Load.loadUnit(file:/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/, ...) took 6482.330385ms
+[debug] Load.apply: load took 6502.854816ms
+[debug] Load.apply: resolveProjects took 0.102768ms
+[debug] Load.apply: finalTransforms took 16.776343ms
+[debug] Load.apply: config.delegates took 0.216489ms
+[debug] Load.apply: Def.make(settings)... took 647.426427ms
+[debug] Load.apply: structureIndex took 26.285503ms
+[debug] Load.apply: mkStreams took 0.002143ms
+[info] set current project to effective-scala-fireworks (in build file:/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(bloopInstall, None, None)
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] doodle_2.13-0.9.21.jar no longer exists at /Users/iaskvortsov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/creativescala/doodle_2.13/0.9.21/doodle_2.13-0.9.21.jar
+[warn] scala3-library_3-3.0.0-sources.jar no longer exists at /Users/iaskvortsov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.0/scala3-library_3-3.0.0-sources.jar

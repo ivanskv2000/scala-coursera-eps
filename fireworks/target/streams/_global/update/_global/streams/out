@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
+[warn] doodle_2.13-0.9.21.jar no longer exists at /Users/iaskvortsov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/creativescala/doodle_2.13/0.9.21/doodle_2.13-0.9.21.jar
+[debug] not up to date. inChanged = false, force = false
 [debug] Updating ...
 [debug] Done updating 

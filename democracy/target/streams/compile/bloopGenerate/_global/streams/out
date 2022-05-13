@@ -1,0 +1,4 @@
+[debug] [democracy] Classpath dependencies List()
+[debug] [democracy] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'democracy' to '/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/democracy/.bloop/democracy.json'
+[success] Generated .bloop/democracy.json

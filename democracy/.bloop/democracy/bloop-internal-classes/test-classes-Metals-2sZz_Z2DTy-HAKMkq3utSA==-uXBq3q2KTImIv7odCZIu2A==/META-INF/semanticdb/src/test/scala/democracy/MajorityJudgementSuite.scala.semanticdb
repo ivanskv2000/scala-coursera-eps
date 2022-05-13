@@ -1,0 +1,1011 @@
+
+ÞÌ5src/test/scala/democracy/MajorityJudgementSuite.scala*@
+!democracy/MajorityJudgementSuite#*MajorityJudgementSuite€*>
+,democracy/MajorityJudgementSuite#`<init>`(). €@*<init>€*C
+/democracy/MajorityJudgementSuite#randomGrade().*randomGrade€*
+local0 €*median€*
+local1 €*grade€*
+local2 €*median€*
+local3 €*grade1€*
+local4 €*grade2€*
+local5 €*median€*
+local6 €*min€*
+local7 €*max€*
+local8*x$1€*
+local9 €*length€*
+local10 €*grades€*
+local11 €*medianGrade€*
+local12 €*sortedGrades€*
+local13 €*	firstHalf€*
+local14 €*
+secondHalf€*
+local15*counterExample€*
+local16*counterExample€*
+local17*x$1€*
+local18 €*length€*
+local19 €*grades€*
+local20 €*median€*
+local21 €*medianErrors€*
+local22*value€*
+local23 €*x€*
+local24 €*xErrors€*
+local25*value€*
+local26 €*
+candidate1€*
+local27 €*
+candidate2€*
+local28 €*
+candidate3€*
+local29 €*
+candidates€*
+local30 €*election€*
+local31*randomBallot€*
+local32 €*voters€*
+local33*x$1€*
+local34 €*ballots€*
+local35 €*winner€*
+local36 €*loosers€*#
+local37 €*candidateMedians€*
+local38*	candidate€* 
+local39 €*highestMedian€*
+local40*	candidate€*
+local41 €*tiramisu€*
+local42 €*cremeBrulee€*
+local43 €*
+cheesecake€*
+local44 €*election€*
+local45 €*ballot1€*
+local46 €*ballot2€*
+local47 €*ballot3€*
+local48 €*elected€*
+local49 €*karting€*
+local50 €*sailing€*
+local51 €*hiking€*
+local52 €*cooking€*
+local53 €*election€*
+local54 €*ballotAlice€*
+local55 €*	ballotBob€*
+local56 €*ballotCarol€*
+local57 €*elected€*
+local58 €*karting€*
+local59 €*sailing€*
+local60 €*hiking€*
+local61 €*cooking€*
+local62 €*election€*
+local63 €*ballotAlice€*
+local64 €*	ballotBob€*
+local65 €*ballotCarol€*
+local66 €*elected€2
+ 
+democracy/2
+ munit/2 
+ scala/util/Random.2 
+ scala/util/Random#2
+ scala/util/2
+ scala/2*
+ "scala/util/control/NonFatal.2!
+ scala/util/control/2
+ scala/util/2
+ scala/2/
+ !democracy/MajorityJudgementSuite#2:
+% %,democracy/MajorityJudgementSuite#`<init>`().2(
+- -munit/FunSuite#`<init>`().2
+% -munit/FunSuite#2=
+		 /democracy/MajorityJudgementSuite#randomGrade().2
+		 democracy/Grade#2"
+
+
+ scala/Array#apply().2'
+
+
+
+ democracy/Grade.values().2
+
+
+ 	democracy/Grade.2,
+
+
+ scala/util/Random#nextInt(+1).2 
+
+
+ scala/util/Random.2#
+
+-
+ 3scala/Array#length().2'
+
+&
+ ,democracy/Grade.values().2
+
+ 
+ %democracy/Grade.2$
+ munit/FunSuite#test().2
+
+ local02'
+ democracy/Grade.median().2
+ democracy/Grade.2 
+  #scala/package.Nil.2(
+ 
+munit/Assertions#fail(+1).2&
+% &scala/StringContext#s().2*
+ scala/StringContext.apply().2
+ %local02B
+' '4munit/internal/MacroCompat.LocationMacro#generate().24
+ &scala/util/control/NonFatal.unapply().2*
+ scala/util/control/NonFatal.2B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2$
+ munit/FunSuite#test().2
+ local12=
+ /democracy/MajorityJudgementSuite#randomGrade().2
+ local22'
+ democracy/Grade.median().2
+ democracy/Grade.27
+" ")scala/collection/IterableFactory#apply().2!
+ "scala/package.List.2
+# (local12.
+  munit/Assertions#assertEquals().2
+ local22
+ local12B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2!
+ scala/`<:<`.refl().2B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2$
+ munit/FunSuite#test().2
+ local32=
+ $/democracy/MajorityJudgementSuite#randomGrade().2
+ local42
+ local52'
+ %democracy/Grade.median().2
+ democracy/Grade.27
+* *)scala/collection/IterableFactory#apply().2!
+& *scala/package.List.2
++ 1local32
+3 9local42 
++ ,scala/Int#`<`(+3).2+
+# *scala/reflect/Enum#ordinal().2
+ "local32+
+4 ;scala/reflect/Enum#ordinal().2
+- 3local42#
+B Bscala/Tuple2.apply().2
+B Hlocal32
+J Plocal42#
+X Xscala/Tuple2.apply().2
+X ^local42
+` flocal32
+	 local62
+ local72(
+ 
+munit/Assertions#assert().2!
+ scala/Int#`>=`(+3).2+
+ scala/reflect/Enum#ordinal().2
+ local52+
+ #scala/reflect/Enum#ordinal().2
+ local62&
+ E  Fscala/StringContext#s().2*
+   scala/StringContext.apply().2
+   local52+
+ <  Cscala/reflect/Enum#ordinal().2
+ 8  ;local62B
+!! 4munit/internal/MacroCompat.LocationMacro#generate().2(
+"" 
+munit/Assertions#assert().2!
+## scala/Int#`<=`(+3).2+
+## scala/reflect/Enum#ordinal().2
+## local52+
+## #scala/reflect/Enum#ordinal().2
+## local72&
+$F$ Gscala/StringContext#s().2*
+$$ scala/StringContext.apply().2
+$$ local52+
+$=$ Dscala/reflect/Enum#ordinal().2
+$9$ <local72B
+%% 4munit/internal/MacroCompat.LocationMacro#generate().2B
+&& 4munit/internal/MacroCompat.LocationMacro#generate().2$
+(( munit/FunSuite#test().29
+,0, 0+scala/collection/IterableOnceOps#foreach().25
+** 'scala/collection/immutable/Range#map().2)
+** scala/runtime/RichInt#to().26
+** (scala/LowPriorityImplicits#intWrapper().2
+** local82
+++ local92 
++#+ $scala/Int#`+`(+4).2,
+++ scala/util/Random#nextInt(+1).2 
+++ scala/util/Random.2
+,, local102@
+,, 2scala/collection/StrictOptimizedSeqFactory#fill().2!
+,, scala/package.List.2
+,,  local92=
+,", -/democracy/MajorityJudgementSuite#randomGrade().2#
+++ scala/Tuple3.apply().2
+++ local92
+,, local102%
+** scala/Tuple3.unapply().2
+.
+. local112'
+.. %democracy/Grade.median().2
+.. democracy/Grade.2
+.&. ,local102
+/
+/ local122/
+/ / &!scala/collection/SeqOps#sortBy().2
+// local102+
+/)/ 0scala/reflect/Enum#ordinal().2&
+/1/ 1scala/math/Ordering.Int.28
+010 8*scala/collection/immutable/List#splitAt().2
+0$0 0local122 
+0@0 Ascala/Int#`/`(+3).2
+090 ?local92%
+00 scala/Tuple2.unapply().2
+00 local132
+00  local142%
+161 =scala/Option#foreach().25
+11 'scala/collection/immutable/List#find().2
+11 local132 
+11  scala/Int#`>`(+3).2+
+11 scala/reflect/Enum#ordinal().2+
+1-1 4scala/reflect/Enum#ordinal().2
+1!1 ,local112
+1@1 Nlocal152(
+22 munit/Assertions#fail(+1).2(
+
+2¤2 ¥scala/StringContext#s().2*
+22 scala/StringContext.apply().2+
+292 @scala/reflect/Enum#ordinal().2
+2*2 8local152
+
+2˜2 £local112D
+
+2¦2 ¦4munit/internal/MacroCompat.LocationMacro#generate().2%
+474 >scala/Option#foreach().25
+44 'scala/collection/immutable/List#find().2
+44 local142 
+4 4 !scala/Int#`<`(+3).2+
+44 scala/reflect/Enum#ordinal().2+
+4.4 5scala/reflect/Enum#ordinal().2
+4"4 -local112
+4A4 Olocal162(
+55 munit/Assertions#fail(+1).2(
+
+5¤5 ¥scala/StringContext#s().2*
+55 scala/StringContext.apply().2+
+595 @scala/reflect/Enum#ordinal().2
+5*5 8local162
+
+5˜5 £local112D
+
+5¦5 ¦4munit/internal/MacroCompat.LocationMacro#generate().2B
+77 4munit/internal/MacroCompat.LocationMacro#generate().2$
+99 munit/FunSuite#test().29
+AJA J+scala/collection/IterableOnceOps#foreach().25
+;; 'scala/collection/immutable/Range#map().2)
+;; scala/runtime/RichInt#to().26
+;; (scala/LowPriorityImplicits#intWrapper().2
+;; local172
+<< local182 
+<)< *scala/Int#`+`(+4).2,
+<< $scala/util/Random#nextInt(+1).2 
+<< scala/util/Random.2
+== local192@
+== 2scala/collection/StrictOptimizedSeqFactory#fill().2!
+== scala/package.List.2
+= = &local182=
+=(= 3/democracy/MajorityJudgementSuite#randomGrade().2
+>> local202'
+>> "democracy/Grade.median().2
+>> democracy/Grade.2
+>#> )local192
+?? local2125
+?T? W'scala/collection/IterableOnceOps#sum().24
+??  &scala/collection/immutable/List#map().2
+?? local192
+?!? &local222'
+?/? 2scala/math/package.abs().2
+?*? .scala/math/2 
+?B? Cscala/Int#`-`(+3).2+
+?:? Ascala/reflect/Enum#ordinal().2
+?3? 9local202+
+?J? Qscala/reflect/Enum#ordinal().2
+?D? Ilocal222/
+?W? W!scala/math/Numeric.IntIsIntegral.2
+@@ local232#
+@*@ +scala/Double#`*`(+3).2-
+@@ 'scala/util/Random#nextDouble().2 
+@@ scala/util/Random.2
+AA local2425
+AGA J'scala/collection/IterableOnceOps#sum().24
+AA  &scala/collection/immutable/List#map().2
+AA local192
+A!A &local252)
+A/A 2scala/math/package.abs(+3).2
+A*A .scala/math/2#
+A5A 6scala/Double#`-`(+3).2
+A3A 4local232+
+A=A Dscala/reflect/Enum#ordinal().2
+A7A <local2524
+AJA J&scala/math/Numeric.DoubleIsFractional.2#
+<< scala/Tuple7.apply().2
+<< local182
+== local192
+>> local202
+?? local212
+@@ local232
+AA local242%
+;; scala/Tuple7.unapply().2(
+CC munit/Assertions#assert().2!
+DD scala/Int#`<=`(+6).2
+DD local212#
+D D !scala/Double#`+`(+7).2
+DD local242&
+E`E ascala/StringContext#s().2*
+E
+E 
+scala/StringContext.apply().2
+EE local232+
+EWE ^scala/reflect/Enum#ordinal().2
+EPE Vlocal202B
+FF 4munit/internal/MacroCompat.LocationMacro#generate().2B
+GG 4munit/internal/MacroCompat.LocationMacro#generate().2$
+II munit/FunSuite#test().2
+JJ local262*
+JJ democracy/Candidate.apply().2"
+JJ democracy/Candidate.2
+KK local272*
+KK democracy/Candidate.apply().2"
+KK democracy/Candidate.2
+LL local282*
+LL democracy/Candidate.apply().2"
+LL democracy/Candidate.2
+MM local2927
+MM )scala/collection/IterableFactory#apply().2
+MM scala/Predef.Set.2
+MM #local262
+M%M /local272
+M1M ;local282
+NN local302)
+NN democracy/Election.apply().2!
+NN democracy/Election.2
+N-N 7local292
+PP local312
+PP democracy/Ballot#2'
+QQ democracy/Ballot.apply().2
+QQ democracy/Ballot.27
+Q0Q 5)scala/collection/IterableOnceOps#toMap().21
+QQ #scala/collection/IterableOps#map().2
+QQ local292-
+QQ  scala/Predef.ArrowAssoc#`->`().2(
+QQ scala/Predef.ArrowAssoc().2=
+Q!Q ,/democracy/MajorityJudgementSuite#randomGrade().2!
+Q5Q 5scala/`<:<`.refl().2
+SS local3229
+Y/Y /+scala/collection/IterableOnceOps#foreach().25
+VV 'scala/collection/immutable/Range#map().2)
+VV scala/runtime/RichInt#to().26
+VV (scala/LowPriorityImplicits#intWrapper().2
+VV local332
+WW local3426
+WW (scala/collection/IterableFactory#fill().2 
+WW scala/package.Seq.2
+WW  local322
+W"W .local312
+XX local352)
+XX democracy/Election#elect().2
+XX local302
+X X 'local342
+YY local3624
+YY "&scala/collection/IterableOps#filter().2
+YY local292
+Y%Y 'scala/Any#`!=`().2
+Y(Y .local352#
+WW scala/Tuple4.apply().2
+WW local342
+XX local352
+YY local362%
+VV scala/Tuple4.unapply().2
+[
+[ local3727
+^
+^ )scala/collection/IterableOnceOps#toMap().21
+\\ #scala/collection/IterableOps#map().2
+\\ local292
+\\ "local382-
+]] scala/Predef.ArrowAssoc#`->`().2(
+]
+] 
+scala/Predef.ArrowAssoc().2
+]
+] local382'
+]] #democracy/Grade.median().2
+]] democracy/Grade.21
+],] /#scala/collection/IterableOps#map().2
+]$] +local342.
+]8] 8 scala/collection/MapOps#apply().2&
+]2] 8democracy/Ballot#grades.2
+]9] Blocal382!
+^^ scala/`<:<`.refl().2
+_
+_ local3927
+_2_ 7)scala/collection/IterableOnceOps#maxBy().2/
+_+_ 1!scala/collection/MapOps#values().2
+__ *local372+
+_:_ Ascala/reflect/Enum#ordinal().2&
+_B_ Bscala/math/Ordering.Int.2(
+`` munit/Assertions#assert().28
+aa *scala/collection/IterableOnceOps#forall().2
+aa local362
+aa  local402!
+aHa Jscala/Int#`<=`(+3).2+
+a@a Gscala/reflect/Enum#ordinal().2.
+a4a 4 scala/collection/MapOps#apply().2
+a$a 4local372
+a5a >local402+
+aYa `scala/reflect/Enum#ordinal().2
+aKa Xlocal392B
+bb 4munit/internal/MacroCompat.LocationMacro#generate().2B
+cc 4munit/internal/MacroCompat.LocationMacro#generate().2$
+ee munit/FunSuite#test().2
+ff local412*
+ff democracy/Candidate.apply().2"
+ff democracy/Candidate.2
+gg local422*
+gg democracy/Candidate.apply().2"
+gg democracy/Candidate.2
+hh local432*
+hh democracy/Candidate.apply().2"
+hh democracy/Candidate.2
+jj local442)
+jj democracy/Election.apply().2!
+jj democracy/Election.27
+j/j /)scala/collection/IterableFactory#apply().2
+j,j /scala/Predef.Set.2
+j0j 8local412
+j:j Elocal422
+jGj Qlocal432
+ll local452'
+ll democracy/Ballot.apply().2
+ll democracy/Ballot.22
+m	m 	$scala/collection/MapFactory#apply().2
+mm 	scala/Predef.Map.2-
+nn scala/Predef.ArrowAssoc#`->`().2(
+nn scala/Predef.ArrowAssoc().2
+nn local412(
+nn &democracy/Grade.Excellent.2
+nn democracy/Grade.2-
+oo scala/Predef.ArrowAssoc#`->`().2(
+oo scala/Predef.ArrowAssoc().2
+oo local422#
+oo !democracy/Grade.Good.2
+oo democracy/Grade.2-
+pp scala/Predef.ArrowAssoc#`->`().2(
+pp scala/Predef.ArrowAssoc().2
+pp local432)
+pp 'democracy/Grade.Inadequate.2
+pp democracy/Grade.2
+tt local462'
+tt democracy/Ballot.apply().2
+tt democracy/Ballot.22
+u	u 	$scala/collection/MapFactory#apply().2
+uu 	scala/Predef.Map.2-
+vv scala/Predef.ArrowAssoc#`->`().2(
+vv scala/Predef.ArrowAssoc().2
+vv local412(
+vv &democracy/Grade.Excellent.2
+vv democracy/Grade.2-
+ww scala/Predef.ArrowAssoc#`->`().2(
+ww scala/Predef.ArrowAssoc().2
+ww local422'
+ww %democracy/Grade.Passable.2
+ww democracy/Grade.2-
+xx scala/Predef.ArrowAssoc#`->`().2(
+xx scala/Predef.ArrowAssoc().2
+xx local432#
+xx !democracy/Grade.Good.2
+xx democracy/Grade.2
+|| local472'
+|| democracy/Ballot.apply().2
+|| democracy/Ballot.22
+}	} 	$scala/collection/MapFactory#apply().2
+}} 	scala/Predef.Map.2-
+~~ scala/Predef.ArrowAssoc#`->`().2(
+~~ scala/Predef.ArrowAssoc().2
+~~ local412'
+~~ %democracy/Grade.VeryGood.2
+~~ democracy/Grade.2-
+ scala/Predef.ArrowAssoc#`->`().2(
+ scala/Predef.ArrowAssoc().2
+ local422)
+ 'democracy/Grade.Inadequate.2
+ democracy/Grade.2/
+
+€€ scala/Predef.ArrowAssoc#`->`().2*
+
+€€ scala/Predef.ArrowAssoc().2
+
+€€ local432%
+
+€€ !democracy/Grade.Good.2 
+
+€€ democracy/Grade.2
+
+„„ local482+
+
+„„  democracy/Election#elect().2
+
+„„ local442=
+
+„$„ $-scala/collection/SeqFactory.Delegate#apply().2"
+
+„!„ $scala/package.Seq.2
+
+„%„ ,local452
+
+„.„ 5local462
+
+„7„ >local4720
+
+††  munit/Assertions#assertEquals().2
+
+†† local482
+
+†† "local412D
+
+†#† #4munit/internal/MacroCompat.LocationMacro#generate().2#
+
+†#† #scala/`<:<`.refl().2D
+
+‡‡ 4munit/internal/MacroCompat.LocationMacro#generate().2&
+
+‰‰ munit/FunSuite#test().2
+
+ŠŠ local492,
+
+ŠŠ democracy/Candidate.apply().2$
+
+ŠŠ democracy/Candidate.2
+
+‹‹ local502,
+
+‹‹ democracy/Candidate.apply().2$
+
+‹‹ democracy/Candidate.2
+
+ŒŒ local512,
+
+ŒŒ democracy/Candidate.apply().2$
+
+ŒŒ democracy/Candidate.2
+
+ local522,
+
+ democracy/Candidate.apply().2$
+
+ democracy/Candidate.2
+
+ŽŽ local532+
+
+ŽŽ democracy/Election.apply().2#
+
+ŽŽ democracy/Election.29
+
+	 	)scala/collection/IterableFactory#apply().2!
+
+ 	scala/Predef.Set.2
+
+
+ local492
+
+ local502
+
+ "local512
+
+$ +local522
+
+’’ local542)
+
+’’ democracy/Ballot.apply().2!
+
+’’ democracy/Ballot.24
+
+“	“ 	$scala/collection/MapFactory#apply().2!
+
+““ 	scala/Predef.Map.2/
+
+”” scala/Predef.ArrowAssoc#`->`().2*
+
+”” scala/Predef.ArrowAssoc().2
+
+”” local492%
+
+”” democracy/Grade.Good.2 
+
+”” democracy/Grade.2/
+
+•• scala/Predef.ArrowAssoc#`->`().2*
+
+•• scala/Predef.ArrowAssoc().2
+
+•• local502*
+
+•• "democracy/Grade.Excellent.2 
+
+•• democracy/Grade.2/
+
+–– scala/Predef.ArrowAssoc#`->`().2*
+
+–– scala/Predef.ArrowAssoc().2
+
+–– local512)
+
+–– !democracy/Grade.VeryGood.2 
+
+–– democracy/Grade.2/
+
+—— scala/Predef.ArrowAssoc#`->`().2*
+
+—— scala/Predef.ArrowAssoc().2
+
+—— local522)
+
+—— !democracy/Grade.VeryGood.2 
+
+—— democracy/Grade.2
+
+›› local552)
+
+›› democracy/Ballot.apply().2!
+
+›› democracy/Ballot.24
+
+œ	œ 	$scala/collection/MapFactory#apply().2!
+
+œœ 	scala/Predef.Map.2/
+
+ scala/Predef.ArrowAssoc#`->`().2*
+
+ scala/Predef.ArrowAssoc().2
+
+ local492)
+
+ !democracy/Grade.VeryGood.2 
+
+ democracy/Grade.2/
+
+žž scala/Predef.ArrowAssoc#`->`().2*
+
+žž scala/Predef.ArrowAssoc().2
+
+žž local502)
+
+žž !democracy/Grade.VeryGood.2 
+
+žž democracy/Grade.2/
+
+ŸŸ scala/Predef.ArrowAssoc#`->`().2*
+
+ŸŸ scala/Predef.ArrowAssoc().2
+
+ŸŸ local512)
+
+ŸŸ !democracy/Grade.VeryGood.2 
+
+ŸŸ democracy/Grade.2/
+
+   scala/Predef.ArrowAssoc#`->`().2*
+
+   scala/Predef.ArrowAssoc().2
+
+   local522*
+
+   "democracy/Grade.Excellent.2 
+
+   democracy/Grade.2
+
+¤¤ local562)
+
+¤¤ democracy/Ballot.apply().2!
+
+¤¤ democracy/Ballot.24
+
+¥	¥ 	$scala/collection/MapFactory#apply().2!
+
+¥¥ 	scala/Predef.Map.2/
+
+¦¦ scala/Predef.ArrowAssoc#`->`().2*
+
+¦¦ scala/Predef.ArrowAssoc().2
+
+¦¦ local492)
+
+¦¦ !democracy/Grade.Passable.2 
+
+¦¦ democracy/Grade.2/
+
+§§ scala/Predef.ArrowAssoc#`->`().2*
+
+§§ scala/Predef.ArrowAssoc().2
+
+§§ local502)
+
+§§ !democracy/Grade.Mediocre.2 
+
+§§ democracy/Grade.2/
+
+¨¨ scala/Predef.ArrowAssoc#`->`().2*
+
+¨¨ scala/Predef.ArrowAssoc().2
+
+¨¨ local512%
+
+¨¨ democracy/Grade.Good.2 
+
+¨¨ democracy/Grade.2/
+
+©© scala/Predef.ArrowAssoc#`->`().2*
+
+©© scala/Predef.ArrowAssoc().2
+
+©© local522%
+
+©© democracy/Grade.Good.2 
+
+©© democracy/Grade.2
+
+­­ local572+
+
+­­  democracy/Election#elect().2
+
+­­ local532=
+
+­$­ $-scala/collection/SeqFactory.Delegate#apply().2"
+
+­!­ $scala/package.Seq.2
+
+­%­ 0local542
+
+­2­ ;local552
+
+­=­ Hlocal5620
+
+®®  munit/Assertions#assertEquals().2
+
+®® local572
+
+®® !local522D
+
+®"® "4munit/internal/MacroCompat.LocationMacro#generate().2#
+
+®"® "scala/`<:<`.refl().2D
+
+¯¯ 4munit/internal/MacroCompat.LocationMacro#generate().2&
+
+±± munit/FunSuite#test().2
+
+²² local582,
+
+²² democracy/Candidate.apply().2$
+
+²² democracy/Candidate.2
+
+³³ local592,
+
+³³ democracy/Candidate.apply().2$
+
+³³ democracy/Candidate.2
+
+´´ local602,
+
+´´ democracy/Candidate.apply().2$
+
+´´ democracy/Candidate.2
+
+µµ local612,
+
+µµ democracy/Candidate.apply().2$
+
+µµ democracy/Candidate.2
+
+¶¶ local622+
+
+¶¶ democracy/Election.apply().2#
+
+¶¶ democracy/Election.29
+
+¸	¸ 	)scala/collection/IterableFactory#apply().2!
+
+¸¸ 	scala/Predef.Set.2
+
+¸
+¸ local582
+
+¸¸ local592
+
+¸¸ "local602
+
+¸$¸ +local612
+
+ºº local632)
+
+ºº democracy/Ballot.apply().2!
+
+ºº democracy/Ballot.24
+
+»	» 	$scala/collection/MapFactory#apply().2!
+
+»» 	scala/Predef.Map.2/
+
+¼¼ scala/Predef.ArrowAssoc#`->`().2*
+
+¼¼ scala/Predef.ArrowAssoc().2
+
+¼¼ local582%
+
+¼¼ democracy/Grade.Good.2 
+
+¼¼ democracy/Grade.2/
+
+½½ scala/Predef.ArrowAssoc#`->`().2*
+
+½½ scala/Predef.ArrowAssoc().2
+
+½½ local592*
+
+½½ "democracy/Grade.Excellent.2 
+
+½½ democracy/Grade.2/
+
+¾¾ scala/Predef.ArrowAssoc#`->`().2*
+
+¾¾ scala/Predef.ArrowAssoc().2
+
+¾¾ local602)
+
+¾¾ !democracy/Grade.VeryGood.2 
+
+¾¾ democracy/Grade.2/
+
+¿¿ scala/Predef.ArrowAssoc#`->`().2*
+
+¿¿ scala/Predef.ArrowAssoc().2
+
+¿¿ local612)
+
+¿¿ !democracy/Grade.VeryGood.2 
+
+¿¿ democracy/Grade.2
+
+ÃÃ local642)
+
+ÃÃ democracy/Ballot.apply().2!
+
+ÃÃ democracy/Ballot.24
+
+Ä	Ä 	$scala/collection/MapFactory#apply().2!
+
+ÄÄ 	scala/Predef.Map.2/
+
+ÅÅ scala/Predef.ArrowAssoc#`->`().2*
+
+ÅÅ scala/Predef.ArrowAssoc().2
+
+ÅÅ local582)
+
+ÅÅ !democracy/Grade.VeryGood.2 
+
+ÅÅ democracy/Grade.2/
+
+ÆÆ scala/Predef.ArrowAssoc#`->`().2*
+
+ÆÆ scala/Predef.ArrowAssoc().2
+
+ÆÆ local592)
+
+ÆÆ !democracy/Grade.VeryGood.2 
+
+ÆÆ democracy/Grade.2/
+
+ÇÇ scala/Predef.ArrowAssoc#`->`().2*
+
+ÇÇ scala/Predef.ArrowAssoc().2
+
+ÇÇ local602*
+
+ÇÇ "democracy/Grade.Excellent.2 
+
+ÇÇ democracy/Grade.2/
+
+ÈÈ scala/Predef.ArrowAssoc#`->`().2*
+
+ÈÈ scala/Predef.ArrowAssoc().2
+
+ÈÈ local612*
+
+ÈÈ "democracy/Grade.Excellent.2 
+
+ÈÈ democracy/Grade.2
+
+ÌÌ local652)
+
+ÌÌ democracy/Ballot.apply().2!
+
+ÌÌ democracy/Ballot.24
+
+Í	Í 	$scala/collection/MapFactory#apply().2!
+
+ÍÍ 	scala/Predef.Map.2/
+
+ÎÎ scala/Predef.ArrowAssoc#`->`().2*
+
+ÎÎ scala/Predef.ArrowAssoc().2
+
+ÎÎ local582)
+
+ÎÎ !democracy/Grade.Passable.2 
+
+ÎÎ democracy/Grade.2/
+
+ÏÏ scala/Predef.ArrowAssoc#`->`().2*
+
+ÏÏ scala/Predef.ArrowAssoc().2
+
+ÏÏ local592)
+
+ÏÏ !democracy/Grade.Mediocre.2 
+
+ÏÏ democracy/Grade.2/
+
+ÐÐ scala/Predef.ArrowAssoc#`->`().2*
+
+ÐÐ scala/Predef.ArrowAssoc().2
+
+ÐÐ local602%
+
+ÐÐ democracy/Grade.Good.2 
+
+ÐÐ democracy/Grade.2/
+
+ÑÑ scala/Predef.ArrowAssoc#`->`().2*
+
+ÑÑ scala/Predef.ArrowAssoc().2
+
+ÑÑ local612%
+
+ÑÑ democracy/Grade.Good.2 
+
+ÑÑ democracy/Grade.2
+
+ÕÕ local662+
+
+ÕÕ  democracy/Election#elect().2
+
+ÕÕ local622=
+
+Õ$Õ $-scala/collection/SeqFactory.Delegate#apply().2"
+
+Õ!Õ $scala/package.Seq.2
+
+Õ%Õ 0local632
+
+Õ2Õ ;local642
+
+Õ=Õ Hlocal652*
+
+ÖÖ 
+munit/Assertions#assert().23
+
+×× ##scala/collection/SetOps#contains().29
+
+×	× 	)scala/collection/IterableFactory#apply().2!
+
+×× 	scala/Predef.Set.2
+
+×
+× local612
+
+×× local602
+
+×$× +local662*
+Ø£Ø ¤scala/StringContext#s().2,
+
+ØØ scala/StringContext.apply().2
+Ø~Ø …local662D
+
+ÙÙ 4munit/internal/MacroCompat.LocationMacro#generate().2D
+
+ÚÚ 4munit/internal/MacroCompat.LocationMacro#generate().PZ C5A30C51AF19B041A2FD11747D358823

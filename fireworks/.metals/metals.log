@@ -3261,3 +3261,82 @@ java.nio.channels.ClosedByInterruptException
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
+2022.05.16 16:39:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/.metals/lsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.05.16 16:39:04 INFO  logging to file /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/.metals/metals.log
+2022.05.16 16:39:04 INFO  Started: Metals version 0.11.5 in workspace '/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks' for client Visual Studio Code 1.67.1.
+2022.05.16 16:39:06 INFO  time: initialize in 2.57s
+2022.05.16 16:39:07 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.16 16:39:07 INFO  Attempting to connect to the build server...
+2022.05.16 16:39:08 INFO  skipping build import with status 'Installed'
+2022.05.16 16:39:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 16:39:07 INFO  Attempting to connect to the build server...
+2022.05.16 16:39:07 INFO  Attempting to connect to the build server...
+2022.05.16 16:39:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 16:39:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 16:39:08 INFO  time: Connected to build server in 0.96s
+2022.05.16 16:39:08 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.16 16:39:08 INFO  time: Imported build in 0.15s
+2022.05.16 16:39:14 INFO  time: indexed workspace in 5.53s
+2022.05.16 16:39:37 INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/63/q32zgnw527g9547scbl9tby00000gn/T/metals5241935540039818014/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.16 16:39:38 INFO  [info] welcome to sbt 1.5.3 (Oracle Corporation Java 11.0.15.1)
+2022.05.16 16:39:38 INFO  [info] loading settings for project fireworks-build-build-build from metals.sbt ...
+2022.05.16 16:39:40 INFO  [info] loading project definition from /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/project
+2022.05.16 16:39:40 INFO  [info] loading settings for project fireworks-build-build from metals.sbt ...
+2022.05.16 16:39:41 INFO  [info] loading project definition from /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project
+2022.05.16 16:39:44 INFO  [success] Generated .bloop/fireworks-build-build.json
+2022.05.16 16:39:44 INFO  [success] Total time: 2 s, completed 16 мая 2022 г., 16:39:44
+2022.05.16 16:39:44 INFO  [info] loading settings for project fireworks-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2022.05.16 16:39:44 INFO  [info] loading project definition from /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project
+2022.05.16 16:39:45 INFO  [success] Generated .bloop/fireworks-build.json
+2022.05.16 16:39:45 INFO  [success] Total time: 1 s, completed 16 мая 2022 г., 16:39:45
+2022.05.16 16:39:45 INFO  [info] loading settings for project fireworks from assignment.sbt,build.sbt ...
+2022.05.16 16:39:47 INFO  [info] set current project to effective-scala-fireworks (in build file:/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/)
+2022.05.16 16:39:47 INFO  [success] Generated .bloop/fireworks.json
+2022.05.16 16:39:47 INFO  [success] Generated .bloop/fireworks-test.json
+2022.05.16 16:39:47 INFO  [success] Total time: 0 s, completed 16 мая 2022 г., 16:39:48
+2022.05.16 16:39:48 INFO  time: ran 'sbt bloopInstall' in 10s
+2022.05.16 16:39:48 INFO  Disconnecting from Bloop session...
+2022.05.16 16:39:48 INFO  Shut down connection with build server.
+2022.05.16 16:39:48 INFO  Shut down connection with build server.
+2022.05.16 16:39:48 INFO  Shut down connection with build server.
+2022.05.16 16:39:48 INFO  Attempting to connect to the build server...
+2022.05.16 16:39:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 16:39:48 INFO  Attempting to connect to the build server...
+2022.05.16 16:39:48 INFO  Attempting to connect to the build server...
+2022.05.16 16:39:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 16:39:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 16:39:48 INFO  time: Connected to build server in 0.13s
+2022.05.16 16:39:48 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.16 16:39:49 INFO  time: indexed workspace in 1.5s
+2022.05.16 16:40:06 INFO  Disconnecting from Bloop session...
+2022.05.16 16:40:06 INFO  Shut down connection with build server.
+2022.05.16 16:40:06 INFO  Shut down connection with build server.
+2022.05.16 16:40:07 INFO  Shut down connection with build server.
+2022.05.16 16:40:07 INFO  Attempting to connect to the build server...
+2022.05.16 16:40:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 16:40:07 INFO  Attempting to connect to the build server...
+2022.05.16 16:40:07 INFO  Attempting to connect to the build server...
+2022.05.16 16:40:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/project/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 16:40:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/project/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 16:40:07 INFO  time: Connected to build server in 93ms
+2022.05.16 16:40:07 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.16 16:40:08 INFO  time: indexed workspace in 1.63s
+мая 16, 2022 4:40:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+мая 16, 2022 4:41:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.05.16 16:41:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/.metals/dap-server.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.05.16 16:41:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/fireworks/.metals/dap-client.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.05.16 16:41:35 INFO  Starting debug proxy for [fireworks.run]
+2022.05.16 16:41:43 INFO  Trying to attach to remote debuggee VM localhost:55512 .
+2022.05.16 16:41:43 INFO  Attaching to debuggee VM succeeded.
+2022.05.16 16:41:51 INFO  Closing debug server tcp://0.0.0.0:55508
+2022.05.16 16:41:51 INFO  Canceling debug proxy for [fireworks.run]
+2022.05.16 16:42:33 INFO  compiling fireworks-build (2 scala sources)
+2022.05.16 16:42:37 INFO  time: code lens generation in 3.09s
+2022.05.16 16:42:37 INFO  time: code lens generation in 4.35s
+2022.05.16 16:42:51 INFO  time: compiled fireworks-build in 17s
+2022.05.16 16:44:16 INFO  shutting down Metals
+2022.05.16 16:44:16 INFO  Shut down connection with build server.
+2022.05.16 16:44:16 INFO  Shut down connection with build server.
+2022.05.16 16:44:16 INFO  Shut down connection with build server.

@@ -1,0 +1,4 @@
+[debug] [todo-test] Classpath dependencies List()
+[debug] [todo-test] Dependencies from configurations List(todo)
+[debug] Bloop wrote the configuration of project 'todo-test' to '/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/.bloop/todo-test.json'
+[success] Generated .bloop/todo-test.json

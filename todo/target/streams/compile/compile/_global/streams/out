@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/src/main/scala/todo/InMemoryModel.scala:44:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m44 |[0m    [33mif[0m idStore.contains(id) [33mthen[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Required: Option[todo.data.Task][0m
+[0m[[0m[31merror[0m] [0m[0m   |    Maybe you are missing an else part for the conditional?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m      [33mval[0m [36mcompletedTask[0m: [35mTask[0m = idStore.getOrElse(id, Task(State.completedNow, [31m"Complete Effective Scala Week 2"[0m, None, List(Tag([31m"programming"[0m), Tag([31m"scala"[0m)))).complete[0m
+[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m      idStore.put(id, completedTask)[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

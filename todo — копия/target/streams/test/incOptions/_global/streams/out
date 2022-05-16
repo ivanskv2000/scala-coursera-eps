@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/target/scala-3.0.0/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TodoSuite.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BijectionSuite.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IdGeneratorSuite.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TodoSuite.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BijectionSuite.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IdGeneratorSuite.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/target/scala-3.0.0/test-classes.bak[0m

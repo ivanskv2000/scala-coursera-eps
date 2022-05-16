@@ -1,0 +1,501 @@
+2022.05.16 20:28:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/.metals/lsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.05.16 20:28:35 INFO  logging to file /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/.metals/metals.log
+2022.05.16 20:28:35 INFO  Started: Metals version 0.11.5 in workspace '/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo' for client Visual Studio Code 1.67.1.
+2022.05.16 20:28:37 INFO  time: initialize in 2.39s
+2022.05.16 20:28:37 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.16 20:28:37 WARN  Build server is not auto-connectable.
+2022.05.16 20:29:11 WARN  no build target for: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/src/main/scala/todo/CirceShim.scala
+2022.05.16 20:29:14 INFO  no build target found for /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/src/main/scala/todo/CirceShim.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.16 20:29:16 INFO  time: code lens generation in 4.53s
+мая 16, 2022 8:29:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.05.16 20:29:36 WARN  no build target for: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/build.sbt
+2022.05.16 20:31:30 WARN  no build target for: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/build.sbt
+2022.05.16 20:31:33 INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/63/q32zgnw527g9547scbl9tby00000gn/T/metals12495384590535294548/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.16 20:31:33 WARN  no build target for: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/project/metals.sbt
+2022.05.16 20:31:34 WARN  no build target for: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/project/project/metals.sbt
+2022.05.16 20:31:35 INFO  [info] welcome to sbt 1.5.3 (Oracle Corporation Java 11.0.15.1)
+2022.05.16 20:31:38 INFO  [info] loading settings for project todo-build-build-build from metals.sbt ...
+2022.05.16 20:31:38 INFO  [info] loading project definition from /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/project/project/project
+2022.05.16 20:31:41 INFO  [info] loading settings for project todo-build-build from metals.sbt ...
+2022.05.16 20:31:41 INFO  [info] loading project definition from /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/project/project
+2022.05.16 20:31:43 INFO  [success] Generated .bloop/todo-build-build.json
+2022.05.16 20:31:43 INFO  [success] Total time: 2 s, completed 16 мая 2022 г., 20:31:43
+2022.05.16 20:31:44 INFO  [info] loading settings for project todo-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2022.05.16 20:31:44 INFO  [info] loading project definition from /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/project
+2022.05.16 20:31:45 INFO  [success] Generated .bloop/todo-build.json
+2022.05.16 20:31:45 INFO  [info] compiling 2 Scala sources to /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/project/target/scala-2.12/sbt-1.0/classes ...
+2022.05.16 20:31:52 INFO  [info] done compiling
+2022.05.16 20:31:52 INFO  [success] Total time: 7 s, completed 16 мая 2022 г., 20:31:52
+2022.05.16 20:31:53 INFO  [info] loading settings for project todo from assignment.sbt,build.sbt ...
+2022.05.16 20:31:53 INFO  [info] set current project to effective-scala-todo (in build file:/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/)
+2022.05.16 20:31:59 INFO  [success] Generated .bloop/todo.json
+2022.05.16 20:31:59 INFO  [success] Generated .bloop/todo-test.json
+2022.05.16 20:31:59 INFO  [success] Total time: 5 s, completed 16 мая 2022 г., 20:31:59
+2022.05.16 20:31:59 INFO  time: ran 'sbt bloopInstall' in 25s
+2022.05.16 20:31:59 INFO  Attempting to connect to the build server...
+2022.05.16 20:31:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 20:31:59 INFO  Attempting to connect to the build server...
+2022.05.16 20:31:59 INFO  Attempting to connect to the build server...
+2022.05.16 20:31:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/project/project/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 20:32:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/project/.metals/bsp.trace.json or /Users/iaskvortsov/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.16 20:32:00 INFO  time: Connected to build server in 0.51s
+2022.05.16 20:32:00 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.16 20:32:06 INFO  time: indexed workspace in 6.32s
+2022.05.16 20:32:06 INFO  compiling todo-build (2 scala sources)
+2022.05.16 20:32:12 INFO  time: compiled todo-build in 5.97s
+2022.05.16 20:32:12 INFO  skipping build import with status 'Installed'
+2022.05.16 20:32:14 INFO  time: code lens generation in 7.92s
+2022.05.16 20:32:14 INFO  time: code lens generation in 1.85s
+2022.05.16 20:34:15 INFO  compiling todo (14 scala sources)
+2022.05.16 20:34:19 INFO  time: compiled todo in 3.61s
+мая 16, 2022 8:38:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.05.16 20:39:19 INFO  skipping build import with status 'Installed'
+2022.05.16 20:42:44 INFO  skipping build import with status 'Installed'
+мая 16, 2022 8:44:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.05.16 21:31:31 INFO  compiling todo (1 scala source)
+2022.05.16 21:31:43 INFO  time: compiled todo in 11s
+2022.05.16 21:33:01 INFO  compiling todo (1 scala source)
+2022.05.16 21:33:12 INFO  time: compiled todo in 11s
+мая 16, 2022 9:33:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1598
+2022.05.16 21:35:08 INFO  compiling todo (1 scala source)
+2022.05.16 21:35:12 INFO  time: compiled todo in 3.44s
+2022.05.16 21:37:48 INFO  compiling todo (1 scala source)
+2022.05.16 21:37:53 INFO  time: compiled todo in 5.03s
+2022.05.16 21:37:53 INFO  compiling todo (1 scala source)
+2022.05.16 21:37:58 INFO  time: compiled todo in 5.58s
+2022.05.16 21:38:25 INFO  compiling todo (1 scala source)
+2022.05.16 21:38:28 INFO  time: compiled todo in 2.34s
+2022.05.16 21:39:09 INFO  compiling todo (1 scala source)
+2022.05.16 21:39:09 INFO  time: compiled todo in 0.74s
+2022.05.16 21:39:42 INFO  compiling todo (1 scala source)
+2022.05.16 21:39:42 INFO  time: compiled todo in 0.28s
+2022.05.16 21:40:17 INFO  compiling todo (1 scala source)
+2022.05.16 21:40:17 INFO  time: compiled todo in 0.34s
+мая 16, 2022 10:55:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1775
+Exception in thread "pool-6-thread-1" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2417)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.05.16 22:55:18 INFO  compiling todo (1 scala source)
+2022.05.16 22:55:18 INFO  time: compiled todo in 0.64s
+2022.05.16 22:55:35 INFO  compiling todo (1 scala source)
+2022.05.16 22:55:39 INFO  time: compiled todo in 4.17s
+2022.05.16 23:00:15 INFO  compiling todo (1 scala source)
+2022.05.16 23:00:19 INFO  time: compiled todo in 4.08s
+2022.05.16 23:02:33 INFO  compiling todo (1 scala source)
+2022.05.16 23:02:33 INFO  time: compiled todo in 0.69s
+2022.05.16 23:05:44 INFO  compiling todo (1 scala source)
+2022.05.16 23:05:48 INFO  time: compiled todo in 3.8s
+Exception in thread "pool-6-thread-2" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2417)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-6-thread-3" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2417)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.05.16 23:14:40 INFO  compiling todo (1 scala source)
+2022.05.16 23:14:44 INFO  time: compiled todo in 4.54s
+2022.05.16 23:16:53 INFO  compiling todo (1 scala source)
+2022.05.16 23:16:56 INFO  time: compiled todo in 3.31s
+2022.05.16 23:18:28 INFO  compiling todo (1 scala source)
+2022.05.16 23:18:28 INFO  time: compiled todo in 0.64s
+2022.05.16 23:19:25 INFO  compiling todo (1 scala source)
+2022.05.16 23:19:25 INFO  time: compiled todo in 0.41s
+2022.05.16 23:35:10 INFO  compiling todo (1 scala source)
+2022.05.16 23:35:15 INFO  time: compiled todo in 5.13s
+2022.05.16 23:35:29 WARN  no build target for: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo — копия/src/main/scala/todo/InMemoryModel.scala
+мая 16, 2022 11:40:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2987
+2022.05.16 23:41:14 INFO  compiling todo (1 scala source)
+2022.05.16 23:41:17 INFO  time: compiled todo in 3.55s
+2022.05.16 23:42:32 INFO  compiling todo (1 scala source)
+2022.05.16 23:42:34 INFO  time: compiled todo in 2.26s
+2022.05.16 23:48:46 INFO  compiling todo (1 scala source)
+2022.05.16 23:48:46 INFO  time: compiled todo in 0.33s
+2022.05.16 23:50:11 INFO  compiling todo (1 scala source)
+2022.05.16 23:50:14 INFO  time: compiled todo in 2.61s
+2022.05.16 23:52:45 INFO  compiling todo (1 scala source)
+2022.05.16 23:52:45 INFO  time: compiled todo in 0.4s
+2022.05.16 23:52:55 INFO  compiling todo (1 scala source)
+2022.05.16 23:52:55 INFO  time: compiled todo in 0.27s
+2022.05.16 23:57:59 INFO  file:///Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/src/main/scala/todo/InMemoryModel.scala:44:5: stale bloop error: Found:    Unit
+Required: Option[todo.data.Task]
+Maybe you are missing an else part for the conditional?
+    if idStore.contains(id) then
+    ^
+2022.05.16 23:57:59 INFO  file:///Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/src/main/scala/todo/InMemoryModel.scala:44:5: stale bloop error: Found:    Unit
+Required: Option[todo.data.Task]
+Maybe you are missing an else part for the conditional?
+    if idStore.contains(id) then
+    ^
+2022.05.16 23:59:11 INFO  compiling todo (1 scala source)
+2022.05.16 23:59:11 INFO  time: compiled todo in 0.54s
+2022.05.17 00:02:44 INFO  compiling todo (1 scala source)
+2022.05.17 00:02:44 INFO  time: compiled todo in 0.49s
+2022.05.17 00:07:02 INFO  compiling todo (1 scala source)
+2022.05.17 00:07:03 INFO  time: compiled todo in 1.01s
+2022.05.17 00:11:55 WARN  no build target for: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo — копия/src/main/scala/todo/InMemoryModel.scala
+2022.05.17 00:18:52 INFO  compiling todo (1 scala source)
+Exception in thread "pool-6-thread-4" java.lang.AssertionError: Failure to join alternatives cats.effect.Resource and cats.effect.Resource[F, <error Not found: type *>]
+	at dotty.tools.dotc.core.TypeOps$.fail$1(TypeOps.scala:219)
+	at dotty.tools.dotc.core.TypeOps$.fallback$1(TypeOps.scala:224)
+	at dotty.tools.dotc.core.TypeOps$.mergeRefinedOrApplied$1(TypeOps.scala:245)
+	at dotty.tools.dotc.core.TypeOps$.mergeRefinedOrApplied$1(TypeOps.scala:237)
+	at dotty.tools.dotc.core.TypeOps$.baseTp$2$$anonfun$2(TypeOps.scala:336)
+	at dotty.tools.dotc.core.Types$Type.mapReduceOr(Types.scala:464)
+	at dotty.tools.dotc.core.TypeOps$.baseTp$3(TypeOps.scala:336)
+	at dotty.tools.dotc.core.TypeOps$.approximateOr$2$$anonfun$1(TypeOps.scala:337)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at dotty.tools.dotc.core.TypeOps$.approximateOr$1(TypeOps.scala:337)
+	at dotty.tools.dotc.core.TypeOps$.orDominator(TypeOps.scala:342)
+	at dotty.tools.dotc.core.Types$OrType.join(Types.scala:3153)
+	at dotty.tools.dotc.core.Types$Type.widenUnionWithoutNull(Types.scala:1278)
+	at dotty.tools.dotc.core.Types$Type.widenUnion(Types.scala:1273)
+	at dotty.tools.dotc.core.ConstraintHandling.widenOr$1(ConstraintHandling.scala:402)
+	at dotty.tools.dotc.core.ConstraintHandling.widenInferred(ConstraintHandling.scala:415)
+	at dotty.tools.dotc.core.ConstraintHandling.widenInferred$(ConstraintHandling.scala:26)
+	at dotty.tools.dotc.core.TypeComparer.widenInferred(TypeComparer.scala:30)
+	at dotty.tools.dotc.core.ConstraintHandling.instanceType(ConstraintHandling.scala:432)
+	at dotty.tools.dotc.core.ConstraintHandling.instanceType$(ConstraintHandling.scala:26)
+	at dotty.tools.dotc.core.TypeComparer.instanceType(TypeComparer.scala:30)
+	at dotty.tools.dotc.core.TypeComparer$.instanceType(TypeComparer.scala:2670)
+	at dotty.tools.dotc.core.Types$TypeVar.instantiate(Types.scala:4446)
+	at dotty.tools.dotc.typer.Inferencing.doInstantiate$1(Inferencing.scala:654)
+	at dotty.tools.dotc.typer.Inferencing.interpolateTypeVars(Inferencing.scala:657)
+	at dotty.tools.dotc.typer.Inferencing.interpolateTypeVars$(Inferencing.scala:525)
+	at dotty.tools.dotc.typer.Typer.interpolateTypeVars(Typer.scala:103)
+	at dotty.tools.dotc.typer.Typer.simplify(Typer.scala:2747)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2733)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.Typer.typeSelectOnTerm$1(Typer.scala:602)
+	at dotty.tools.dotc.typer.Typer.typedSelect(Typer.scala:652)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2639)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2730)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:868)
+	at dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1021)
+	at dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:303)
+	at dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:103)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2669)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2731)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2715)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2731)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.Typer.$anonfun$34(Typer.scala:2142)
+	at dotty.tools.dotc.typer.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:225)
+	at dotty.tools.dotc.typer.Typer.typedDefDef(Typer.scala:2142)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2646)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2730)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2822)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:2872)
+	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2328)
+	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$2(Typer.scala:2657)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2661)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2730)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2822)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:2872)
+	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2451)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2702)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2731)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.FrontEnd.liftedTree1$1(FrontEnd.scala:79)
+	at dotty.tools.dotc.typer.FrontEnd.typeCheck$$anonfun$1(FrontEnd.scala:84)
+	at dotty.tools.dotc.typer.FrontEnd.monitor(FrontEnd.scala:43)
+	at dotty.tools.dotc.typer.FrontEnd.typeCheck(FrontEnd.scala:85)
+	at dotty.tools.dotc.typer.FrontEnd.runOn$$anonfun$3(FrontEnd.scala:120)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.FrontEnd.runOn(FrontEnd.scala:120)
+	at dotty.tools.dotc.Run.runPhases$4$$anonfun$4(Run.scala:205)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1328)
+	at dotty.tools.dotc.Run.runPhases$5(Run.scala:215)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:223)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:230)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:166)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:162)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:34)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.semanticdbTextDocument$$anonfun$1(ScalaPresentationCompiler.scala:135)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.05.17 00:18:53 INFO  time: compiled todo in 1.2s
+Exception in thread "pool-6-thread-5" java.lang.AssertionError: Failure to join alternatives cats.effect.Resource and cats.effect.Resource[F, <error Not found: type *>]
+	at dotty.tools.dotc.core.TypeOps$.fail$1(TypeOps.scala:219)
+	at dotty.tools.dotc.core.TypeOps$.fallback$1(TypeOps.scala:224)
+	at dotty.tools.dotc.core.TypeOps$.mergeRefinedOrApplied$1(TypeOps.scala:245)
+	at dotty.tools.dotc.core.TypeOps$.mergeRefinedOrApplied$1(TypeOps.scala:237)
+	at dotty.tools.dotc.core.TypeOps$.baseTp$2$$anonfun$2(TypeOps.scala:336)
+	at dotty.tools.dotc.core.Types$Type.mapReduceOr(Types.scala:464)
+	at dotty.tools.dotc.core.TypeOps$.baseTp$3(TypeOps.scala:336)
+	at dotty.tools.dotc.core.TypeOps$.approximateOr$2$$anonfun$1(TypeOps.scala:337)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at dotty.tools.dotc.core.TypeOps$.approximateOr$1(TypeOps.scala:337)
+	at dotty.tools.dotc.core.TypeOps$.orDominator(TypeOps.scala:342)
+	at dotty.tools.dotc.core.Types$OrType.join(Types.scala:3153)
+	at dotty.tools.dotc.core.Types$Type.widenUnionWithoutNull(Types.scala:1278)
+	at dotty.tools.dotc.core.Types$Type.widenUnion(Types.scala:1273)
+	at dotty.tools.dotc.core.ConstraintHandling.widenOr$1(ConstraintHandling.scala:402)
+	at dotty.tools.dotc.core.ConstraintHandling.widenInferred(ConstraintHandling.scala:415)
+	at dotty.tools.dotc.core.ConstraintHandling.widenInferred$(ConstraintHandling.scala:26)
+	at dotty.tools.dotc.core.TypeComparer.widenInferred(TypeComparer.scala:30)
+	at dotty.tools.dotc.core.ConstraintHandling.instanceType(ConstraintHandling.scala:432)
+	at dotty.tools.dotc.core.ConstraintHandling.instanceType$(ConstraintHandling.scala:26)
+	at dotty.tools.dotc.core.TypeComparer.instanceType(TypeComparer.scala:30)
+	at dotty.tools.dotc.core.TypeComparer$.instanceType(TypeComparer.scala:2670)
+	at dotty.tools.dotc.core.Types$TypeVar.instantiate(Types.scala:4446)
+	at dotty.tools.dotc.typer.Inferencing.doInstantiate$1(Inferencing.scala:654)
+	at dotty.tools.dotc.typer.Inferencing.interpolateTypeVars(Inferencing.scala:657)
+	at dotty.tools.dotc.typer.Inferencing.interpolateTypeVars$(Inferencing.scala:525)
+	at dotty.tools.dotc.typer.Typer.interpolateTypeVars(Typer.scala:103)
+	at dotty.tools.dotc.typer.Typer.simplify(Typer.scala:2747)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2733)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.Typer.typeSelectOnTerm$1(Typer.scala:602)
+	at dotty.tools.dotc.typer.Typer.typedSelect(Typer.scala:652)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2639)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2730)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:868)
+	at dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1021)
+	at dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:303)
+	at dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:103)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2669)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2731)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2715)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2731)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.Typer.$anonfun$34(Typer.scala:2142)
+	at dotty.tools.dotc.typer.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:225)
+	at dotty.tools.dotc.typer.Typer.typedDefDef(Typer.scala:2142)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2646)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2730)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2822)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:2872)
+	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2328)
+	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$2(Typer.scala:2657)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2661)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2730)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2822)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:2872)
+	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2451)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2702)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2731)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.FrontEnd.liftedTree1$1(FrontEnd.scala:79)
+	at dotty.tools.dotc.typer.FrontEnd.typeCheck$$anonfun$1(FrontEnd.scala:84)
+	at dotty.tools.dotc.typer.FrontEnd.monitor(FrontEnd.scala:43)
+	at dotty.tools.dotc.typer.FrontEnd.typeCheck(FrontEnd.scala:85)
+	at dotty.tools.dotc.typer.FrontEnd.runOn$$anonfun$3(FrontEnd.scala:120)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.FrontEnd.runOn(FrontEnd.scala:120)
+	at dotty.tools.dotc.Run.runPhases$4$$anonfun$4(Run.scala:205)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1328)
+	at dotty.tools.dotc.Run.runPhases$5(Run.scala:215)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:223)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:230)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:166)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:162)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:34)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.semanticdbTextDocument$$anonfun$1(ScalaPresentationCompiler.scala:135)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-6-thread-6" java.lang.AssertionError: Failure to join alternatives cats.effect.Resource and cats.effect.Resource[F, <error Not found: type *>]
+	at dotty.tools.dotc.core.TypeOps$.fail$1(TypeOps.scala:219)
+	at dotty.tools.dotc.core.TypeOps$.fallback$1(TypeOps.scala:224)
+	at dotty.tools.dotc.core.TypeOps$.mergeRefinedOrApplied$1(TypeOps.scala:245)
+	at dotty.tools.dotc.core.TypeOps$.mergeRefinedOrApplied$1(TypeOps.scala:237)
+	at dotty.tools.dotc.core.TypeOps$.baseTp$2$$anonfun$2(TypeOps.scala:336)
+	at dotty.tools.dotc.core.Types$Type.mapReduceOr(Types.scala:464)
+	at dotty.tools.dotc.core.TypeOps$.baseTp$3(TypeOps.scala:336)
+	at dotty.tools.dotc.core.TypeOps$.approximateOr$2$$anonfun$1(TypeOps.scala:337)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at dotty.tools.dotc.core.TypeOps$.approximateOr$1(TypeOps.scala:337)
+	at dotty.tools.dotc.core.TypeOps$.orDominator(TypeOps.scala:342)
+	at dotty.tools.dotc.core.Types$OrType.join(Types.scala:3153)
+	at dotty.tools.dotc.core.Types$Type.widenUnionWithoutNull(Types.scala:1278)
+	at dotty.tools.dotc.core.Types$Type.widenUnion(Types.scala:1273)
+	at dotty.tools.dotc.core.ConstraintHandling.widenOr$1(ConstraintHandling.scala:402)
+	at dotty.tools.dotc.core.ConstraintHandling.widenInferred(ConstraintHandling.scala:415)
+	at dotty.tools.dotc.core.ConstraintHandling.widenInferred$(ConstraintHandling.scala:26)
+	at dotty.tools.dotc.core.TypeComparer.widenInferred(TypeComparer.scala:30)
+	at dotty.tools.dotc.core.ConstraintHandling.instanceType(ConstraintHandling.scala:432)
+	at dotty.tools.dotc.core.ConstraintHandling.instanceType$(ConstraintHandling.scala:26)
+	at dotty.tools.dotc.core.TypeComparer.instanceType(TypeComparer.scala:30)
+	at dotty.tools.dotc.core.TypeComparer$.instanceType(TypeComparer.scala:2670)
+	at dotty.tools.dotc.core.Types$TypeVar.instantiate(Types.scala:4446)
+	at dotty.tools.dotc.typer.Inferencing.doInstantiate$1(Inferencing.scala:654)
+	at dotty.tools.dotc.typer.Inferencing.interpolateTypeVars(Inferencing.scala:657)
+	at dotty.tools.dotc.typer.Inferencing.interpolateTypeVars$(Inferencing.scala:525)
+	at dotty.tools.dotc.typer.Typer.interpolateTypeVars(Typer.scala:103)
+	at dotty.tools.dotc.typer.Typer.simplify(Typer.scala:2747)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2733)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.Typer.typeSelectOnTerm$1(Typer.scala:602)
+	at dotty.tools.dotc.typer.Typer.typedSelect(Typer.scala:652)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2639)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2730)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:868)
+	at dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1021)
+	at dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:303)
+	at dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:103)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2669)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2731)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2715)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2731)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.Typer.$anonfun$34(Typer.scala:2142)
+	at dotty.tools.dotc.typer.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:225)
+	at dotty.tools.dotc.typer.Typer.typedDefDef(Typer.scala:2142)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2646)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2730)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2822)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:2872)
+	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2328)
+	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$2(Typer.scala:2657)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2661)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2730)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2822)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:2872)
+	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2451)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2702)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2731)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2796)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2800)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:2916)
+	at dotty.tools.dotc.typer.FrontEnd.liftedTree1$1(FrontEnd.scala:79)
+	at dotty.tools.dotc.typer.FrontEnd.typeCheck$$anonfun$1(FrontEnd.scala:84)
+	at dotty.tools.dotc.typer.FrontEnd.monitor(FrontEnd.scala:43)
+	at dotty.tools.dotc.typer.FrontEnd.typeCheck(FrontEnd.scala:85)
+	at dotty.tools.dotc.typer.FrontEnd.runOn$$anonfun$3(FrontEnd.scala:120)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.FrontEnd.runOn(FrontEnd.scala:120)
+	at dotty.tools.dotc.Run.runPhases$4$$anonfun$4(Run.scala:205)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1328)
+	at dotty.tools.dotc.Run.runPhases$5(Run.scala:215)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:223)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:230)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:166)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:162)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:34)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.semanticdbTextDocument$$anonfun$1(ScalaPresentationCompiler.scala:135)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+мая 17, 2022 12:26:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3900
+2022.05.17 00:33:07 INFO  compiling todo (1 scala source)
+2022.05.17 00:33:07 INFO  time: compiled todo in 0.98s
+2022.05.17 00:34:06 INFO  compiling todo (1 scala source)
+2022.05.17 00:34:06 INFO  time: compiled todo in 0.91s
+мая 17, 2022 12:37:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

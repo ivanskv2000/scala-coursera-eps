@@ -1,0 +1,36 @@
+
+ò
+&src/main/scala/todo/AssetService.scala*)
+todo/AssetService.
+ *AssetService€*,
+todo/AssetService.service().*service€*5
+%todo/AssetService.service().(blocker)*blocker€*-
+ todo/AssetService.service().(cs)  *cs€2
+ todo/2
+ cats/effect/2
+ cats/2$
+ org/http4s/HttpRoutes.2
+ org/http4s/2
+ 
+org/2.
+ & org/http4s/server/staticcontent/2 
+ org/http4s/server/2
+ org/http4s/2
+ 
+org/2 
+ todo/AssetService.2*
+ todo/AssetService.service().23
+ %todo/AssetService.service().(blocker)2"
+ cats/effect/Blocker#2.
+& ( todo/AssetService.service().(cs)2'
+* 6cats/effect/ContextShift#2,
+= Gorg/http4s/package.HttpRoutes#2D
+ 6org/http4s/server/staticcontent/package.fileService().2I
+" ";org/http4s/server/staticcontent/FileService.Config.apply().2A
+ "3org/http4s/server/staticcontent/FileService.Config.2:
+ ,org/http4s/server/staticcontent/FileService.23
+? F%todo/AssetService.service().(blocker)2;
+G G-cats/effect/IOInstances#ioConcurrentEffect().2.
+G G todo/AssetService.service().(cs)2;
+H H-cats/effect/IOInstances#ioConcurrentEffect().2.
+H H todo/AssetService.service().(cs)PZ B22B4981FFCF1D579582D56C2915EDB8

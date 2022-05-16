@@ -1,0 +1,54 @@
+
+±!src/main/scala/todo/data/Id.scala*
+todo/data/Id# ˆ*Id€**
+todo/data/Id#`<init>`(). €@*<init>€*0
+todo/data/Id#`<init>`().(toInt) €*toInt€*$
+todo/data/Id#toInt. €*toInt€*!
+todo/data/Id#next().*next€*!
+todo/data/Id#copy().*copy€*)
+todo/data/Id#copy().(toInt)*toInt€*5
+todo/data/Id#copy$default$1().*copy$default$1€*
+todo/data/Id#_1().*_1€*
+todo/data/Id.
+ *Id€*#
+todo/data/Id.apply().*apply€**
+todo/data/Id.apply().(toInt)*toInt€*'
+todo/data/Id.unapply().*unapply€*(
+todo/data/Id.unapply().(x$1)*x$1€*)
+todo/data/Id.toString().*toString€*.
+todo/data/Id.idOrdering. è*
+idOrdering€*
+local0*id€2
+ todo/2
+ 
+todo/data/2
+
+
+ todo/data/Id#2&
+
+
+ todo/data/Id#`<init>`().2
+
+
+ 
+scala/Int#2!
+
+
+ todo/data/Id#toInt.2"
+ 
+todo/data/Id#next().2
+ todo/data/Id#2"
+ todo/data/Id#copy().2)
+  todo/data/Id#copy().(toInt)2 
+) *scala/Int#`+`(+4).2!
+# (todo/data/Id#toInt.2
+ 	todo/data/Id.2&
+ todo/data/Id.idOrdering.2%
+ scala/package.Ordering#2
+ todo/data/Id#2'
+, .scala/math/Ordering.by().2%
+# +scala/package.Ordering.2
+/ 1local02!
+8 =todo/data/Id#toInt.2
+5 7local02&
+> >scala/math/Ordering.Int.PZ DEB7DA92BA9FCD8CB9CEE7DA3F341B20

@@ -1,0 +1,26 @@
+
+Â%src/main/scala/todo/IdGenerator.scala*%
+todo/IdGenerator#*IdGenerator€*.
+todo/IdGenerator#`<init>`(). €@*<init>€*+
+ todo/IdGenerator#`<init>`().(id)*id€*$
+todo/IdGenerator#id(). €*id€*)
+todo/IdGenerator#nextId().*nextId€*
+local0 €*	currentId€2
+ todo/2
+ todo/data/Id.2
+ todo/data/Id#2
+ 
+todo/data/2
+ todo/2
+		 todo/IdGenerator#2*
+		 todo/IdGenerator#`<init>`().2
+	"	 $todo/data/Id#2$
+		  todo/IdGenerator#id().2(
+ todo/IdGenerator#nextId().2
+ todo/data/Id#2
+ local02$
+ todo/IdGenerator#id().2$
+ todo/IdGenerator#id().2"
+ todo/data/Id#next().2
+	 local02
+ local0PZ 09B6B1AF738EBE6D21F58B47A1DC8B37

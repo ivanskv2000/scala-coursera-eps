@@ -1,0 +1,63 @@
+
+„$src/main/scala/todo/data/State.scala*"
+todo/data/State# ”€*State€*-
+todo/data/State#`<init>`(). €@*<init>€*.
+todo/data/State#completed().*	completed€*(
+todo/data/State#active().*active€* 
+todo/data/State.
+ *State€**
+todo/data/State.Active. €©*Active€*0
+todo/data/State.Completed# ˆ*	Completed€*7
+%todo/data/State.Completed#`<init>`(). €@*<init>€*;
++todo/data/State.Completed#`<init>`().(data) €*data€*/
+todo/data/State.Completed#data. €*data€*.
+!todo/data/State.Completed#copy().*copy€*4
+'todo/data/State.Completed#copy().(data)*data€*B
++todo/data/State.Completed#copy$default$1().*copy$default$1€*4
+$todo/data/State.Completed#ordinal().*ordinal€**
+todo/data/State.Completed#_1().*_1€*.
+todo/data/State.Completed.
+ *	Completed€*0
+"todo/data/State.Completed.apply().*apply€*5
+(todo/data/State.Completed.apply().(data)*data€*4
+$todo/data/State.Completed.unapply().*unapply€*5
+)todo/data/State.Completed.unapply().(x$1)*x$1€*6
+%todo/data/State.Completed.toString().*toString€*$
+todo/data/State.$new().*$new€*4
+"todo/data/State.$new().(_$ordinal)*	_$ordinal€*,
+todo/data/State.$new().($name)*$name€*2
+todo/data/State.fromOrdinal().*fromOrdinal€*7
+'todo/data/State.fromOrdinal().(ordinal)*ordinal€*4
+todo/data/State.completedNow().*completedNow€2
+ todo/2
+ 
+todo/data/2&
+ java/time/ZonedDateTime#2
+ 
+java/time/2
+ java/2
+
+
+ 
+todo/data/State#2)
+ todo/data/State#`<init>`().2*
+ todo/data/State#completed().2
+ scala/Boolean#2(
+ todo/data/State.Completed#2
+ todo/data/State.2'
+ todo/data/State#active().2
+ scala/Boolean#2%
+ todo/data/State.Active.2
+ todo/data/State.2
+ todo/data/State.2%
+ todo/data/State.Active.2(
+ todo/data/State.Completed#23
+ %todo/data/State.Completed#`<init>`().2&
+ $java/time/ZonedDateTime#2-
+ todo/data/State.Completed#data.2-
+## todo/data/State.completedNow().2
+## todo/data/State#20
+$$ "todo/data/State.Completed.apply().2(
+$$ todo/data/State.Completed.2,
+$$ java/time/ZonedDateTime#now().2&
+$$ java/time/ZonedDateTime#PZ 6614D65A5B7EF9A3598F0C5998320EAD

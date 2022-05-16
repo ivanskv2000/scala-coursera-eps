@@ -1,0 +1,59 @@
+
+ž$src/main/scala/todo/data/Tasks.scala*!
+todo/data/Tasks# ˆ*Tasks€*-
+todo/data/Tasks#`<init>`(). €@*<init>€*3
+"todo/data/Tasks#`<init>`().(tasks) €*tasks€*'
+todo/data/Tasks#tasks. €*tasks€*(
+todo/data/Tasks#toList().*toList€*&
+todo/data/Tasks#toMap().*toMap€*$
+todo/data/Tasks#copy().*copy€*,
+todo/data/Tasks#copy().(tasks)*tasks€*8
+!todo/data/Tasks#copy$default$1().*copy$default$1€* 
+todo/data/Tasks#_1().*_1€* 
+todo/data/Tasks.
+ *Tasks€*&
+todo/data/Tasks.apply().*apply€*-
+todo/data/Tasks.apply().(tasks)*tasks€**
+todo/data/Tasks.unapply().*unapply€*+
+todo/data/Tasks.unapply().(x$1)*x$1€*,
+todo/data/Tasks.toString().*toString€*'
+todo/data/Tasks.empty. €*empty€2
+ todo/2
+ 
+todo/data/2
+		 todo/data/Tasks#2)
+		 todo/data/Tasks#`<init>`().2%
+		 &scala/package.Iterable#2
+	(	 *todo/data/Id#2
+	,	 0todo/data/Task#2$
+		 todo/data/Tasks#tasks.2'
+
+
+ todo/data/Tasks#toList().2!
+
+
+ scala/package.List#2
+
+
+ todo/data/Id#2
+
+
+ todo/data/Task#28
+
+ *scala/collection/IterableOnceOps#toList().2$
+ 	todo/data/Tasks#tasks.2&
+ todo/data/Tasks#toMap().2
+ scala/Predef.Map#2
+ todo/data/Id#2
+ todo/data/Task#27
+
+ )scala/collection/IterableOnceOps#toMap().2$
+ 	todo/data/Tasks#tasks.2!
+ scala/`<:<`.refl().2
+ todo/data/Tasks.2$
+ todo/data/Tasks.empty.2
+ todo/data/Tasks#2&
+ todo/data/Tasks.apply().2
+ todo/data/Tasks.26
+  %(scala/collection/immutable/List.empty().2!
+ scala/package.List.PZ 914E57BC30FD82284EA44618BDEF4074

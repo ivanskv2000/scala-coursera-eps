@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(31bff85e-e849-4f61-8f20-398b25a709bd), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/target/scala-3.0.0/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 23, Failed 7, Errors 0, Passed 16[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	todo.TodoSuite[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed 17 мая 2022 г., 0:03:58[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

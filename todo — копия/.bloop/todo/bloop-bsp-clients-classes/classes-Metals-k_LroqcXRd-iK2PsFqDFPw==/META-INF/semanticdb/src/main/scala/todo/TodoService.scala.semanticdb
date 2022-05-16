@@ -1,0 +1,309 @@
+
+ž]%src/main/scala/todo/TodoService.scala*%
+todo/TodoService#*TodoService€*.
+todo/TodoService#`<init>`(). €@*<init>€*1
+#todo/TodoService#`<init>`().(model)*model€*(
+todo/TodoService#model. €*model€*3
+todo/TodoService#Description.
+ *Description€*,
+todo/TodoService#service. €*service€*
+local0*x$1€*
+local1 €*id€*
+local2 €*task€*
+local3 €*req€*
+local4*task€*
+local5 €*id€*
+local6 €*req€*
+local7 €*id€*
+local8*task€*
+local9 €*updated€*
+local10 €*id€*
+local11 €*id€*
+local12 €*task€*
+local13 €*tasks€*
+local14 €*tag€*
+local15 €*tasks€*
+local16 €*tags€2
+ todo/2
+ cats/effect/IO.2
+ cats/effect/IO#2
+ cats/effect/2
+ cats/2$
+ org/http4s/HttpRoutes.2
+ org/http4s/2
+ 
+org/2
+ org/http4s/circe/2
+ org/http4s/2
+ 
+org/22
+ *$org/http4s/circe/CirceEntityDecoder.2
+ org/http4s/circe/2
+ org/http4s/2
+ 
+org/2
+ io/circe/Encoder.2
+ io/circe/Encoder#2
+
+ 	io/circe/2
+ 	io/2
+ io/circe/syntax/2
+
+ 	io/circe/2
+ 	io/2
+ 
+todo/data/2
+ todo/2
+ todo/TodoService#2*
+ todo/TodoService#`<init>`().2
+ todo/Model#2%
+ todo/TodoService#model.2 
+ org/http4s/dsl/io.2
+ org/http4s/dsl/2
+ org/http4s/2
+	 org/2G
++ =9org/http4s/circe/CirceEntityEncoder#circeEntityEncoder().20
+ *"org/http4s/circe/CirceEntityCodec.2
+ org/http4s/circe/2
+ org/http4s/2
+	 org/2
+	 todo/data/Codecs.2+
+	 todo/TodoService#Description.2F
+= =8org/http4s/dsl/impl/QueryParamDecoderMatcher#`<init>`().2A
+ 53org/http4s/dsl/RequestDsl#QueryParamDecoderMatcher#2"
+6 <scala/Predef.String#2C
+L L5org/http4s/QueryParamDecoder.stringQueryParamDecoder.2'
+ todo/TodoService#service.2,
+ org/http4s/package.HttpRoutes#2)
+ org/http4s/HttpRoutes.of().2$
+ org/http4s/HttpRoutes.2
+ local021
+ #org/http4s/dsl/impl/`->`.unapply().2-
+ org/http4s/dsl/Http4sDsl2#`->`.2.
+  org/http4s/dsl/impl/Methods#GET.20
+! !"org/http4s/dsl/impl/`/`.unapply().2,
+  !org/http4s/dsl/Http4sDsl2#`/`.20
+ "org/http4s/dsl/impl/`/`.unapply().2,
+ org/http4s/dsl/Http4sDsl2#`/`.2-
+ org/http4s/dsl/Http4sDsl2#Root.24
+( (&org/http4s/dsl/impl/PathVar#unapply().2/
+" (!org/http4s/dsl/Http4sDsl2#IntVar.2
+) +local12 
+ todo/Model#read().2%
+ todo/TodoService#model.2#
+ todo/data/Id.apply().2
+ todo/data/Id.2
+ local12
+ scala/None.2B
+ 4org/http4s/dsl/impl/EntityResponseGenerator#apply().2C
+ 5org/http4s/dsl/impl/Responses#http4sNotFoundSyntax().24
+ &org/http4s/dsl/impl/Statuses#NotFound.2:
+! !,cats/effect/IOLowPriorityInstances#ioEffect.2#
+ scala/Some.unapply().2
+ scala/Some.2
+ local22D
+ 6org/http4s/dsl/impl/EntityResponseGenerator#apply(+2).2=
+ /org/http4s/dsl/impl/Responses#http4sOkSyntax().2.
+  org/http4s/dsl/impl/Statuses#Ok.2:
+% +,io/circe/syntax/package.EncoderOps#asJson().23
+   %io/circe/syntax/package.EncoderOps().2
+  $local22)
++ +todo/data/Codecs.taskCodec.2:
+, ,,cats/effect/IOLowPriorityInstances#ioEffect.2G
+, ,9org/http4s/circe/CirceEntityEncoder#circeEntityEncoder().2*
+, ,io/circe/Encoder.encodeJson.2
+ local321
+ #org/http4s/dsl/impl/`->`.unapply().2-
+ org/http4s/dsl/Http4sDsl2#`->`.2/
+ !org/http4s/dsl/impl/Methods#POST.20
+ "org/http4s/dsl/impl/`/`.unapply().2,
+ org/http4s/dsl/Http4sDsl2#`/`.2-
+ org/http4s/dsl/Http4sDsl2#Root.2*
+ org/http4s/Request#decode().2
+ local32
+ todo/data/Task#2
+ local42
+   local52"
+   todo/Model#create().2%
+   todo/TodoService#model.2
+    $local42D
+!! 6org/http4s/dsl/impl/EntityResponseGenerator#apply(+2).2=
+!
+! 
+/org/http4s/dsl/impl/Responses#http4sOkSyntax().2.
+!
+!  org/http4s/dsl/impl/Statuses#Ok.2
+!! local52:
+!! ,cats/effect/IOLowPriorityInstances#ioEffect.2G
+!! 9org/http4s/circe/CirceEntityEncoder#circeEntityEncoder().2)
+!! todo/data/Codecs.idEncoder.2:
+"	" 	,cats/effect/IOLowPriorityInstances#ioEffect.2G
+"	" 	9org/http4s/circe/CirceEntityDecoder#circeEntityDecoder().2)
+"	" 	todo/data/Codecs.taskCodec.2
+$$ local621
+$$ #org/http4s/dsl/impl/`->`.unapply().2-
+$$ org/http4s/dsl/Http4sDsl2#`->`.2/
+$$ !org/http4s/dsl/impl/Methods#POST.20
+$($ ("org/http4s/dsl/impl/`/`.unapply().2,
+$'$ (org/http4s/dsl/Http4sDsl2#`/`.20
+$$ "org/http4s/dsl/impl/`/`.unapply().2,
+$$ org/http4s/dsl/Http4sDsl2#`/`.2-
+$$ org/http4s/dsl/Http4sDsl2#Root.24
+$/$ /&org/http4s/dsl/impl/PathVar#unapply().2/
+$)$ /!org/http4s/dsl/Http4sDsl2#IntVar.2
+$0$ 2local72*
+%% org/http4s/Request#decode().2
+%% local62
+%% todo/data/Task#2
+%% local82
+&& local92"
+&& $todo/Model#update().2%
+&& todo/TodoService#model.2#
+&'& 'todo/data/Id.apply().2
+&%& 'todo/data/Id.2
+&(& *local72
+&2& 6local82D
+'' 6org/http4s/dsl/impl/EntityResponseGenerator#apply(+2).2=
+'
+' 
+/org/http4s/dsl/impl/Responses#http4sOkSyntax().2.
+'
+'  org/http4s/dsl/impl/Statuses#Ok.2
+'' local92:
+'' ,cats/effect/IOLowPriorityInstances#ioEffect.2G
+'' 9org/http4s/circe/CirceEntityEncoder#circeEntityEncoder().2.
+''  io/circe/Encoder.encodeOption().2)
+'' todo/data/Codecs.taskCodec.2:
+(	( 	,cats/effect/IOLowPriorityInstances#ioEffect.2G
+(	( 	9org/http4s/circe/CirceEntityDecoder#circeEntityDecoder().2)
+(	( 	todo/data/Codecs.taskCodec.21
+** #org/http4s/dsl/impl/`->`.unapply().2-
+** org/http4s/dsl/Http4sDsl2#`->`.21
+** #org/http4s/dsl/impl/Methods#DELETE.20
+*$* $"org/http4s/dsl/impl/`/`.unapply().2,
+*#* $org/http4s/dsl/Http4sDsl2#`/`.20
+** "org/http4s/dsl/impl/`/`.unapply().2,
+** org/http4s/dsl/Http4sDsl2#`/`.2-
+** org/http4s/dsl/Http4sDsl2#Root.24
+*+* +&org/http4s/dsl/impl/PathVar#unapply().2/
+*%* +!org/http4s/dsl/Http4sDsl2#IntVar.2
+*,* .local102"
+++ todo/Model#delete().2%
+++ todo/TodoService#model.2#
+++ todo/data/Id.apply().2
+++ todo/data/Id.2
+++ local102B
+,, 4org/http4s/dsl/impl/EntityResponseGenerator#apply().2=
+,
+, 
+/org/http4s/dsl/impl/Responses#http4sOkSyntax().2.
+,
+,  org/http4s/dsl/impl/Statuses#Ok.2:
+,, ,cats/effect/IOLowPriorityInstances#ioEffect.2B
+.. 4org/http4s/dsl/impl/EntityResponseGenerator#apply().2C
+.
+. 
+5org/http4s/dsl/impl/Responses#http4sNotFoundSyntax().24
+.
+. &org/http4s/dsl/impl/Statuses#NotFound.2:
+.. ,cats/effect/IOLowPriorityInstances#ioEffect.21
+00 #org/http4s/dsl/impl/`->`.unapply().2-
+00 org/http4s/dsl/Http4sDsl2#`->`.2/
+00 !org/http4s/dsl/impl/Methods#POST.20
+0/0 /"org/http4s/dsl/impl/`/`.unapply().2,
+0.0 /org/http4s/dsl/Http4sDsl2#`/`.20
+0"0 ""org/http4s/dsl/impl/`/`.unapply().2,
+0!0 "org/http4s/dsl/Http4sDsl2#`/`.20
+00 "org/http4s/dsl/impl/`/`.unapply().2,
+00 org/http4s/dsl/Http4sDsl2#`/`.2-
+00 org/http4s/dsl/Http4sDsl2#Root.24
+0)0 )&org/http4s/dsl/impl/PathVar#unapply().2/
+0#0 )!org/http4s/dsl/Http4sDsl2#IntVar.2
+0*0 ,local112$
+11 todo/Model#complete().2%
+11 todo/TodoService#model.2#
+11 todo/data/Id.apply().2
+11 todo/data/Id.2
+11 local112
+22 scala/None.2B
+22 4org/http4s/dsl/impl/EntityResponseGenerator#apply().2C
+22 5org/http4s/dsl/impl/Responses#http4sNotFoundSyntax().24
+22 &org/http4s/dsl/impl/Statuses#NotFound.2:
+2!2 !,cats/effect/IOLowPriorityInstances#ioEffect.2#
+33 scala/Some.unapply().2
+33 scala/Some.2
+33 local122D
+33 6org/http4s/dsl/impl/EntityResponseGenerator#apply(+2).2=
+33 /org/http4s/dsl/impl/Responses#http4sOkSyntax().2.
+33  org/http4s/dsl/impl/Statuses#Ok.2:
+3%3 +,io/circe/syntax/package.EncoderOps#asJson().23
+3 3  %io/circe/syntax/package.EncoderOps().2
+3 3 $local122)
+3+3 +todo/data/Codecs.taskCodec.2:
+3,3 ,,cats/effect/IOLowPriorityInstances#ioEffect.2G
+3,3 ,9org/http4s/circe/CirceEntityEncoder#circeEntityEncoder().2*
+3,3 ,io/circe/Encoder.encodeJson.21
+55 #org/http4s/dsl/impl/`->`.unapply().2-
+55 org/http4s/dsl/Http4sDsl2#`->`.2.
+55  org/http4s/dsl/impl/Methods#GET.20
+55 "org/http4s/dsl/impl/`/`.unapply().2,
+55 org/http4s/dsl/Http4sDsl2#`/`.2-
+55 org/http4s/dsl/Http4sDsl2#Root.2
+66 local132!
+66 todo/Model#tasks().2%
+66 todo/TodoService#model.2D
+7
+7 
+6org/http4s/dsl/impl/EntityResponseGenerator#apply(+2).2=
+77 /org/http4s/dsl/impl/Responses#http4sOkSyntax().2.
+77 
+ org/http4s/dsl/impl/Statuses#Ok.2
+77 local132:
+77 ,cats/effect/IOLowPriorityInstances#ioEffect.2G
+77 9org/http4s/circe/CirceEntityEncoder#circeEntityEncoder().2*
+77 todo/data/Codecs.tasksCodec.21
+99 #org/http4s/dsl/impl/`->`.unapply().2-
+99 org/http4s/dsl/Http4sDsl2#`->`.2.
+99  org/http4s/dsl/impl/Methods#GET.20
+9"9 ""org/http4s/dsl/impl/`/`.unapply().2,
+9!9 "org/http4s/dsl/Http4sDsl2#`/`.20
+99 "org/http4s/dsl/impl/`/`.unapply().2,
+99 org/http4s/dsl/Http4sDsl2#`/`.2-
+99 org/http4s/dsl/Http4sDsl2#Root.2
+9#9 &local142
+:: local152#
+:: todo/Model#tasks(+1).2%
+:: todo/TodoService#model.2$
+:#: #todo/data/Tag.apply().2
+: : #todo/data/Tag.2
+:$: 'local142D
+;
+; 
+6org/http4s/dsl/impl/EntityResponseGenerator#apply(+2).2=
+;; /org/http4s/dsl/impl/Responses#http4sOkSyntax().2.
+;; 
+ org/http4s/dsl/impl/Statuses#Ok.2
+;; local152:
+;; ,cats/effect/IOLowPriorityInstances#ioEffect.2G
+;; 9org/http4s/circe/CirceEntityEncoder#circeEntityEncoder().2*
+;; todo/data/Codecs.tasksCodec.21
+== #org/http4s/dsl/impl/`->`.unapply().2-
+== org/http4s/dsl/Http4sDsl2#`->`.2.
+==  org/http4s/dsl/impl/Methods#GET.20
+== "org/http4s/dsl/impl/`/`.unapply().2,
+== org/http4s/dsl/Http4sDsl2#`/`.2-
+== org/http4s/dsl/Http4sDsl2#Root.2
+>> local162 
+>> todo/Model#tags().2%
+>> todo/TodoService#model.2D
+?
+? 
+6org/http4s/dsl/impl/EntityResponseGenerator#apply(+2).2=
+?? /org/http4s/dsl/impl/Responses#http4sOkSyntax().2.
+?? 
+ org/http4s/dsl/impl/Statuses#Ok.2
+?? local162:
+?? ,cats/effect/IOLowPriorityInstances#ioEffect.2G
+?? 9org/http4s/circe/CirceEntityEncoder#circeEntityEncoder().2)
+?? todo/data/Codecs.tagsCodec.2:
+AA ,cats/effect/IOLowPriorityInstances#ioEffect.PZ 8920E8E1E9184B623C110120561BBCB1

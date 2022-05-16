@@ -1,0 +1,76 @@
+
+Ð#src/main/scala/todo/data/Task.scala*
+todo/data/Task# ˆ*Task€*,
+todo/data/Task#`<init>`(). €@*<init>€*2
+!todo/data/Task#`<init>`().(state) €*state€*>
+'todo/data/Task#`<init>`().(description) €*description€*2
+!todo/data/Task#`<init>`().(notes) €*notes€*0
+ todo/data/Task#`<init>`().(tags) €*tags€*&
+todo/data/Task#state. €*state€*2
+todo/data/Task#description. €*description€*&
+todo/data/Task#notes. €*notes€*$
+todo/data/Task#tags. €*tags€*+
+todo/data/Task#complete().*complete€*
+local0 €*newState€*
+local1 €*d€*#
+todo/data/Task#copy().*copy€*+
+todo/data/Task#copy().(state)*state€*7
+#todo/data/Task#copy().(description)*description€*+
+todo/data/Task#copy().(notes)*notes€*)
+todo/data/Task#copy().(tags)*tags€*7
+ todo/data/Task#copy$default$1().*copy$default$1€*7
+ todo/data/Task#copy$default$2().*copy$default$2€*7
+ todo/data/Task#copy$default$3().*copy$default$3€*7
+ todo/data/Task#copy$default$4().*copy$default$4€*
+todo/data/Task#_1().*_1€*
+todo/data/Task#_2().*_2€*
+todo/data/Task#_3().*_3€*
+todo/data/Task#_4().*_4€*
+todo/data/Task.
+ *Task€*%
+todo/data/Task.apply().*apply€*,
+todo/data/Task.apply().(state)*state€*8
+$todo/data/Task.apply().(description)*description€*,
+todo/data/Task.apply().(notes)*notes€**
+todo/data/Task.apply().(tags)*tags€*)
+todo/data/Task.unapply().*unapply€**
+todo/data/Task.unapply().(x$1)*x$1€*+
+todo/data/Task.toString().*toString€2
+ todo/2
+ 
+todo/data/2
+		 todo/data/Task#2(
+		 todo/data/Task#`<init>`().2
+
+	
+ todo/data/State#2"
+ scala/Predef.String#2
+	 scala/Option#2"
+ scala/Predef.String#2!
+ scala/package.List#2
+ todo/data/Tag#2#
+
+
+ todo/data/Task#state.2)
+ todo/data/Task#description.2#
+ todo/data/Task#notes.2"
+ todo/data/Task#tags.2(
+ todo/data/Task#complete().2
+ todo/data/Task#2
+ local02#
+ todo/data/Task#state.2%
+ todo/data/State.Active.2
+ todo/data/State.2-
+# /todo/data/State.completedNow().2
+ "todo/data/State.22
+ $todo/data/State.Completed.unapply().2(
+ todo/data/State.Completed.2
+ todo/data/State.2
+ local120
+2 2"todo/data/State.Completed.apply().2(
+) 2todo/data/State.Completed.2
+# (todo/data/State.2
+3 4local12$
+	 todo/data/Task#copy().2+
+ todo/data/Task#copy().(state)2
+ local0PZ 46B7248A14A7F782B5A793362B7F222A

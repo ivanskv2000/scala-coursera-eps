@@ -1,0 +1,184 @@
+
+š2'src/main/scala/todo/InMemoryModel.scala*+
+todo/InMemoryModel.
+ *InMemoryModel€*8
+ todo/InMemoryModel.defaultTasks. €*defaultTasks€*6
+todo/InMemoryModel.idGenerator. €*idGenerator€*.
+todo/InMemoryModel.idStore. €*idStore€*+
+todo/InMemoryModel.create().*create€*/
+"todo/InMemoryModel.create().(task)*task€*
+local0 €*id€*'
+todo/InMemoryModel.read().*read€*)
+todo/InMemoryModel.read().(id)*id€*/
+todo/InMemoryModel.complete().*complete€*-
+"todo/InMemoryModel.complete().(id)*id€*+
+todo/InMemoryModel.update().*update€*+
+ todo/InMemoryModel.update().(id)*id€*)
+todo/InMemoryModel.update().(f)*f€*
+local1*opt€*+
+todo/InMemoryModel.delete().*delete€*+
+ todo/InMemoryModel.delete().(id)*id€*
+local2 €*found€*)
+todo/InMemoryModel.tasks().*tasks€*'
+todo/InMemoryModel.tags().*tags€*+
+todo/InMemoryModel.tasks(+1).*tasks€*.
+"todo/InMemoryModel.tasks(+1).(tag)*tag€*)
+todo/InMemoryModel.clear().*clear€2
+ todo/2
+ cats/implicits.2
+ cats/2'
+ scala/collection/mutable/2
+ scala/collection/2
+ scala/2
+ 
+todo/data/2
+ todo/2!
+ todo/InMemoryModel.2
+ "todo/Model#2.
+  todo/InMemoryModel.defaultTasks.27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2-
+
+ scala/Predef.ArrowAssoc#`->`().2(
+ scala/Predef.ArrowAssoc().2#
+ todo/data/Id.apply().2
+ todo/data/Id.2%
+ todo/data/Task.apply().2
+ todo/data/Task.2-
+ $todo/data/State.completedNow().2
+ todo/data/State.2
+I Mscala/None.27
+S S)scala/collection/IterableFactory#apply().2!
+O Sscala/package.List.2$
+W Wtodo/data/Tag.apply().2
+T Wtodo/data/Tag.2$
+k ktodo/data/Tag.apply().2
+h ktodo/data/Tag.2-
+
+ scala/Predef.ArrowAssoc#`->`().2(
+ scala/Predef.ArrowAssoc().2#
+ todo/data/Id.apply().2
+ todo/data/Id.2%
+ todo/data/Task.apply().2
+ todo/data/Task.2%
+ todo/data/State.Active.2
+ todo/data/State.2!
+G Gscala/Some.apply().2
+C Gscala/Some.27
+n n)scala/collection/IterableFactory#apply().2!
+j nscala/package.List.2$
+r rtodo/data/Tag.apply().2
+o rtodo/data/Tag.2&
+
+† †todo/data/Tag.apply().2
+
+ƒ †todo/data/Tag.2&
+
+” ”todo/data/Tag.apply().2
+
+‘ ”todo/data/Tag.2&
+
+ª ªtodo/data/Tag.apply().2
+
+§ ªtodo/data/Tag.2-
+
+ scala/Predef.ArrowAssoc#`->`().2(
+ scala/Predef.ArrowAssoc().2#
+ todo/data/Id.apply().2
+ todo/data/Id.2%
+ todo/data/Task.apply().2
+ todo/data/Task.2%
+ todo/data/State.Active.2
+ todo/data/State.2!
+7 7scala/Some.apply().2
+3 7scala/Some.27
+d d)scala/collection/IterableFactory#apply().2!
+` dscala/package.List.2$
+h htodo/data/Tag.apply().2
+e htodo/data/Tag.2$
+u utodo/data/Tag.apply().2
+r utodo/data/Tag.2-
+ todo/InMemoryModel.idGenerator.2*
+' 'todo/IdGenerator#`<init>`().2
+ 'todo/IdGenerator#2#
+* *todo/data/Id.apply().2
+( *todo/data/Id.2)
+ todo/InMemoryModel.idStore.25
+ ,'scala/collection/mutable/LinkedHashMap#2'
+ scala/collection/mutable/2
+- /todo/data/Id#2
+1 5todo/data/Task#2<
+   .scala/collection/mutable/LinkedHashMap.from().25
+   'scala/collection/mutable/LinkedHashMap.2'
+   scala/collection/mutable/2.
+   + todo/InMemoryModel.defaultTasks.2*
+"" todo/InMemoryModel.create().20
+"" "todo/InMemoryModel.create().(task)2
+"" todo/data/Task#2
+"" todo/data/Id#2
+## 
+local02(
+## todo/IdGenerator#nextId().2-
+## todo/InMemoryModel.idGenerator.2
+$$ local02(
+&& 
+todo/InMemoryModel.read().2,
+&& todo/InMemoryModel.read().(id)2
+&& todo/data/Id#2
+&& scala/Option#2
+&& todo/data/Task#2;
+'' -scala/collection/mutable/LinkedHashMap#get().2)
+'' todo/InMemoryModel.idStore.2,
+'' todo/InMemoryModel.read().(id)2,
+)) todo/InMemoryModel.complete().20
+)) "todo/InMemoryModel.complete().(id)2
+)) todo/data/Id#2
+)) scala/Option#2
+)) #todo/data/Task#2
+** scala/None.2*
+,, todo/InMemoryModel.update().2.
+,,  todo/InMemoryModel.update().(id)2
+,, todo/data/Id#2-
+,, todo/InMemoryModel.update().(f)2
+,, todo/data/Task#2
+, , $todo/data/Task#2
+,', -scala/Option#2
+,., 2todo/data/Task#2B
+-- 4scala/collection/mutable/LinkedHashMap#updateWith().2)
+-- todo/InMemoryModel.idStore.2.
+--  todo/InMemoryModel.update().(id)2
+-- local12!
+-&- )scala/Option#map().2
+-"- %local12-
+-*- +todo/InMemoryModel.update().(f)2*
+// todo/InMemoryModel.delete().2.
+//  todo/InMemoryModel.delete().(id)2
+// todo/data/Id#2
+// scala/Boolean#2
+00 local22
+11 	local22)
+33 todo/InMemoryModel.tasks().2
+33 todo/data/Tasks#2&
+4	4 	todo/data/Tasks.apply().2
+44 	todo/data/Tasks.2)
+4
+4 todo/InMemoryModel.idStore.2(
+66 
+todo/InMemoryModel.tags().2
+66 todo/data/Tags#2%
+77 todo/data/Tags.apply().2
+77 todo/data/Tags.26
+77 (scala/collection/immutable/List.empty().2!
+7	7 scala/package.List.2+
+99 todo/InMemoryModel.tasks(+1).20
+99 "todo/InMemoryModel.tasks(+1).(tag)2
+99 todo/data/Tag#2
+99 todo/data/Tasks#2&
+:	: 	todo/data/Tasks.apply().2
+:: 	todo/data/Tasks.2)
+:
+: todo/InMemoryModel.idStore.2)
+<< todo/InMemoryModel.clear().2
+<< scala/Unit#2=
+== /scala/collection/mutable/LinkedHashMap#clear().2)
+== todo/InMemoryModel.idStore.PZ 7A51EAC2CEB16F445E017D65AAED0DB0

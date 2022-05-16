@@ -26,7 +26,7 @@ object Main extends IOApp:
     EmberServerBuilder
       .default[IO]
       .withHost("0.0.0.0")
-      .withPort(3000)
+      .withPort(765)
       .withHttpApp(app(blocker))
       .build
 

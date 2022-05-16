@@ -1,0 +1,148 @@
+
+‚*src/main/scala/todo/Main.scala*
+
+todo/Main.
+ *Main€*
+todo/Main.app().*app€*)
+todo/Main.app().(blocker)*blocker€*"
+todo/Main.server().*server€*,
+todo/Main.server().(blocker)*blocker€*%
+todo/Main.program. €*program€*
+local0*blocker€*
+local1*server€*
+local2*x$1€*
+local3*x$1€*
+todo/Main.run().*run€*#
+todo/Main.run().(args)*args€2
+ todo/2
+ cats/effect/2
+ cats/2
+ cats/implicits.2
+ cats/2
+ fs2/Stream.2
+ fs2/Stream#2
+ 
+fs2/2
+ org/http4s/2
+ 
+org/29
+ 1+org/http4s/ember/server/EmberServerBuilder.29
+ 1+org/http4s/ember/server/EmberServerBuilder#2&
+ org/http4s/ember/server/2
+ org/http4s/ember/2
+ org/http4s/2
+ 
+org/2'
+  org/http4s/server/Router.2'
+" (org/http4s/server/Server.2 
+ org/http4s/server/2
+ org/http4s/2
+ 
+org/20
+  "org/http4s/syntax/package.kleisli.2 
+ org/http4s/syntax/2
+ org/http4s/2
+ 
+org/20
+	$	 ("org/http4s/server/middleware/CORS.2+
+		 #org/http4s/server/middleware/2 
+		 org/http4s/server/2
+		 org/http4s/2
+		 
+org/2
+ 
+todo/Main.2 
+ cats/effect/IOApp#2
+ todo/Main.app().2'
+ todo/Main.app().(blocker)2"
+ "cats/effect/Blocker#2)
+% ,org/http4s/package.HttpApp#2@
+% /2org/http4s/syntax/KleisliResponseOps#orNotFound().2S
+ Eorg/http4s/syntax/KleisliSyntax#http4sKleisliResponseSyntaxOptionT().20
+ "org/http4s/server/Router.define().2'
+ 
+org/http4s/server/Router.2-
+ scala/Predef.ArrowAssoc#`->`().2(
+ scala/Predef.ArrowAssoc().28
+ *org/http4s/server/middleware/CORS.apply().20
+ "org/http4s/server/middleware/CORS.2'
+0 7todo/TodoService#service.2*
+   todo/TodoService#`<init>`().2
+  todo/TodoService#2!
+! .todo/InMemoryModel.2I
+8 8;cats/data/OptionTInstances0#catsDataMonadErrorForOptionT().2;
+8 8-cats/effect/IOInstances#ioConcurrentEffect().2/
+8 8!cats/effect/IOApp#contextShift().2*
+ todo/AssetService.service().2 
+ todo/AssetService.2'
+ "todo/Main.app().(blocker)2/
+# #!cats/effect/IOApp#contextShift().2;
+$ $-cats/effect/IOInstances#ioConcurrentEffect().2/
+$ $!cats/effect/IOApp#contextShift().2!
+ todo/Main.server().2*
+ todo/Main.server().(blocker)2"
+ %cats/effect/Blocker#2#
+( 0cats/effect/Resource#2'
+5 ;org/http4s/server/Server#2A
+ 3org/http4s/ember/server/EmberServerBuilder#build().2G
+ 9org/http4s/ember/server/EmberServerBuilder#withHttpApp().2D
+ 6org/http4s/ember/server/EmberServerBuilder#withPort().2D
+ 6org/http4s/ember/server/EmberServerBuilder#withHost().2C
+ 5org/http4s/ember/server/EmberServerBuilder.default().29
+ +org/http4s/ember/server/EmberServerBuilder.2;
+ -cats/effect/IOInstances#ioConcurrentEffect().2/
+ !cats/effect/IOApp#contextShift().2(
+ cats/effect/IOApp#timer().2
+ todo/Main.app().2*
+ todo/Main.server().(blocker)2 
+   todo/Main.program.2
+   fs2/Stream#2
+ "  &scala/Unit#2#
+"-" -fs2/Stream#flatMap().2$
+""  fs2/Stream.resource().2
+"" fs2/Stream.2<
+"(" (.cats/effect/internals/BlockerPlatform#apply().2"
+"!" (cats/effect/Blocker.2;
+"," ,-cats/effect/IOInstances#ioConcurrentEffect().2/
+"," ,!cats/effect/IOApp#contextShift().2
+"" local02#
+#0# 0fs2/Stream#flatMap().2$
+## fs2/Stream.resource().2
+## fs2/Stream.2!
+# # &todo/Main.server().2
+#'# .local02
+## local12#
+$L$ Lfs2/Stream#flatMap().2 
+$$ fs2/Stream.eval().2
+$$ fs2/Stream.2%
+$$ cats/effect/IO.apply().2
+$$ cats/effect/IO.2'
+$$ !scala/Predef.println(+1).2&
+$H$ Iscala/StringContext#s().2*
+$$$ $scala/StringContext.apply().21
+$@$ G#org/http4s/server/Server#address().2
+$9$ ?local12
+$$ local22
+%.% .fs2/Stream#map().2(
+%% (fs2/Stream#covaryOutput().2!
+%% fs2/Stream.never().2
+%% fs2/Stream.2;
+%% -cats/effect/IOInstances#ioConcurrentEffect().2/
+%% !cats/effect/IOApp#contextShift().2
+%)% -scala/Unit#2
+%% local32
+(( todo/Main.run().2$
+(( todo/Main.run().(args)2!
+(( scala/package.List#2"
+(( $scala/Predef.String#2
+((( *cats/effect/IO#2#
+(+( 3cats/effect/ExitCode#2"
+)) cats/effect/IO#as().2,
+)) fs2/Stream.CompileOps#drain().2#
+)) fs2/Stream#compile().2 
+)) todo/Main.program.21
+)) #fs2/Stream.Compiler.syncInstance().2;
+)) -cats/effect/IOInstances#ioConcurrentEffect().2/
+)) !cats/effect/IOApp#contextShift().2+
+)&) -cats/effect/ExitCode.Success.2#
+)) %cats/effect/ExitCode.PZ 1E106040D6BC0645D4350CD6A78861FB

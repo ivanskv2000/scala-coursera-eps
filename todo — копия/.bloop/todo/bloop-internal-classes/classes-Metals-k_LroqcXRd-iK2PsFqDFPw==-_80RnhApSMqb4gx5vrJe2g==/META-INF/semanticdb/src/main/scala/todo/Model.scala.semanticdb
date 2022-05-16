@@ -1,0 +1,66 @@
+
+ src/main/scala/todo/Model.scala*
+todo/Model#*Model€*(
+todo/Model#`<init>`(). €@*<init>€*%
+todo/Model#create(). *create€*'
+todo/Model#create().(task)*task€*!
+todo/Model#read(). *read€*!
+todo/Model#read().(id)*id€*%
+todo/Model#update(). *update€*#
+todo/Model#update().(id)*id€*!
+todo/Model#update().(f)*f€*%
+todo/Model#delete(). *delete€*#
+todo/Model#delete().(id)*id€*#
+todo/Model#tasks(). *tasks€*%
+todo/Model#tasks(+1). *tasks€*&
+todo/Model#tasks(+1).(tag)*tag€*)
+todo/Model#complete(). *complete€*%
+todo/Model#complete().(id)*id€*!
+todo/Model#tags(). *tags€*#
+todo/Model#clear(). *clear€2
+ todo/2
+ 
+todo/data/2
+ todo/2
+
+
+ todo/Model#2$
+ todo/Model#`<init>`().2"
+ todo/Model#create().2(
+ todo/Model#create().(task)2
+ todo/data/Task#2
+ todo/data/Id#2 
+ 
+todo/Model#read().2$
+ todo/Model#read().(id)2
+ todo/data/Id#2
+ scala/Option#2
+ todo/data/Task#2"
+ todo/Model#update().2&
+ todo/Model#update().(id)2
+ todo/data/Id#2%
+ todo/Model#update().(f)2
+ todo/data/Task#2
+  $todo/data/Task#2
+' -scala/Option#2
+. 2todo/data/Task#2"
+ todo/Model#delete().2&
+ todo/Model#delete().(id)2
+ todo/data/Id#2
+ scala/Boolean#2!
+!! todo/Model#tasks().2
+!! todo/data/Tasks#2#
+%% todo/Model#tasks(+1).2(
+%% todo/Model#tasks(+1).(tag)2
+%% todo/data/Tag#2
+%% todo/data/Tasks#2$
+)) todo/Model#complete().2(
+)) todo/Model#complete().(id)2
+)) todo/data/Id#2
+)) scala/Option#2
+)) #todo/data/Task#2 
+-- 
+todo/Model#tags().2
+-- todo/data/Tags#2!
+11 todo/Model#clear().2
+11 scala/Unit#PZ 791AA58184F79977B1B7904AFEA66F1B

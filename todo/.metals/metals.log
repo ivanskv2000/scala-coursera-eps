@@ -499,3 +499,7 @@ WARNING: Unmatched cancel notification for request id 3900
 2022.05.17 00:34:06 INFO  time: compiled todo in 0.91s
 мая 17, 2022 12:37:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.05.17 00:47:37 INFO  shutting down Metals
+2022.05.17 00:47:37 INFO  Shut down connection with build server.
+2022.05.17 00:47:37 INFO  Shut down connection with build server.
+2022.05.17 00:47:37 INFO  Shut down connection with build server.

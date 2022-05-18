@@ -95,29 +95,48 @@ object PersistentModel extends Model:
    * (The InMemoryModel uses the same.)
    */
 
-  def create(task: Task): Id =
-    ???
+  def create(task: Task): Id = /* OK */
+    val id = loadId()
+    saveId(id.next)
+    val taskMap = loadTasks().toMap
+    saveTasks(Tasks(taskMap + (id -> task)))
+    id
 
-  def read(id: Id): Option[Task] =
-    ???
+  def read(id: Id): Option[Task] = /* OK */
+    val taskMap = loadTasks().toMap
+    taskMap.get(id)
 
-  def update(id: Id)(f: Task => Task): Option[Task] =
-    ???
+  def update(id: Id)(f: Task => Task): Option[Task] = /* OK */
+    var taskMap: Map[Id, Task] = loadTasks().toMap
+    var updatedTasks = taskMap.updatedWith(id)(opt => opt.map(f))
+    saveTasks(Tasks(updatedTasks))
+    updatedTasks.get(id)
 
-  def delete(id: Id): Boolean =
-    ???
+  def delete(id: Id): Boolean = /* OK */
+    var taskMap: Map[Id, Task] = loadTasks().toMap
+    var found = taskMap.contains(id)
+    if found then
+      var updatedTasks = taskMap - id
+      saveTasks(Tasks(updatedTasks))
+    found
 
-  def tasks: Tasks =
-    ???
+  def tasks: Tasks = /* OK */
+    loadTasks()
 
-  def tasks(tag: Tag): Tasks =
-    ???
+  def tasks(tag: Tag): Tasks = /* OK */
+    val taskMap = loadTasks().toMap
+    Tasks(taskMap.filter((id_, task_) => task_.tags.contains(tag)))
 
-  def complete(id: Id): Option[Task] =
-    ???
+  def complete(id: Id): Option[Task] = /* OK */
+    var taskMap: Map[Id, Task] = loadTasks().toMap
+    var updatedTasks = taskMap.updatedWith(id)(opt => Some(opt.get.complete))
+    saveTasks(Tasks(updatedTasks))
+    updatedTasks.get(id)
 
-  def tags: Tags =
-    ???
+  def tags: Tags = /* OK */
+    val taskMap = loadTasks().toMap
+    val storeTags = taskMap.values.flatMap(x => x.tags).toList
+    Tags(storeTags.distinct)
 
-  def clear(): Unit =
-    ???
+  def clear(): Unit = /* OK */
+    saveTasks(Tasks.empty)

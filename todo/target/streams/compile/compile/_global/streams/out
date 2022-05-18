@@ -1,10 +1,23 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/src/main/scala/todo/InMemoryModel.scala:44:4 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m44 |[0m    [33mif[0m idStore.contains(id) [33mthen[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |    [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |    Found:    Unit[0m
-[0m[[0m[31merror[0m] [0m[0m   |    Required: Option[todo.data.Task][0m
-[0m[[0m[31merror[0m] [0m[0m   |    Maybe you are missing an else part for the conditional?[0m
-[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m      [33mval[0m [36mcompletedTask[0m: [35mTask[0m = idStore.getOrElse(id, Task(State.completedNow, [31m"Complete Effective Scala Week 2"[0m, None, List(Tag([31m"programming"[0m), Tag([31m"scala"[0m)))).complete[0m
-[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m      idStore.put(id, completedTask)[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/src/main/scala/todo/PersistentModel.scala:102:28 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m102 |[0m    saveTasks(Tasks(taskMap.put(id, task)))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                    [31m^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value put is not a member of Map[todo.data.Id, todo.data.Task] - did you mean taskMap.get?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/src/main/scala/todo/PersistentModel.scala:107:20 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m107 |[0m    Task(taskMap.get(id))[0m
+[0m[[0m[31merror[0m] [0m[0m    |         [31m^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |         Found:    [1m[31mOption[0m[1m[31m[[0mtodo.data.[1m[31mTask[0m[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |         Required: todo.data.[1m[32mState[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/todo/src/main/scala/todo/PersistentModel.scala:119:33 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m119 |[0m      [33mvar[0m [36mupdatedTasks[0m = taskMap.remove(id)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                         [31m^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value remove is not a member of Map[todo.data.Id, todo.data.Task], but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |One of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import collection.convert.ImplicitConversions.map AsJavaMap[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import collection.convert.ImplicitConversionsToJava.map AsJavaMap[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import collection.convert.ImplicitConversions.collection asJava[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import collection.convert.ImplicitConversionsToJava.collection asJava[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

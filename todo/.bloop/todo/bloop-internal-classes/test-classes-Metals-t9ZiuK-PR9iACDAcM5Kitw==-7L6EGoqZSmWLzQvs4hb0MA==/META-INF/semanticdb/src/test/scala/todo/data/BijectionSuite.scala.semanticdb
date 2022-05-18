@@ -1,0 +1,169 @@
+
+×6-src/test/scala/todo/data/BijectionSuite.scala*0
+todo/data/BijectionSuite#*BijectionSuite€*6
+$todo/data/BijectionSuite#`<init>`(). €@*<init>€*?
+)todo/data/BijectionSuite#testBijection().*testBijection€*6
+,todo/data/BijectionSuite#testBijection().[A]	*A€*<
+/todo/data/BijectionSuite#testBijection().(name)*name€*D
+3todo/data/BijectionSuite#testBijection().(original)*original€*<
+.todo/data/BijectionSuite#testBijection().(loc)  *loc€*@
+0todo/data/BijectionSuite#testBijection().(codec)  *codec€*
+local0 €*decoded€*
+local1 €*o€*
+local2 €*e€*0
+todo/data/BijectionSuite#task1. €*task1€*0
+todo/data/BijectionSuite#task2. €*task2€*0
+todo/data/BijectionSuite#tasks. €*tasks€2
+ todo/2
+ 
+todo/data/2
+
+ 	io/circe/2
+ 	io/2
+ io/circe/syntax/2
+
+ 	io/circe/2
+ 	io/2'
+ todo/data/BijectionSuite#22
+ $todo/data/BijectionSuite#`<init>`().2(
++ +munit/FunSuite#`<init>`().2
+# +munit/FunSuite#2
+ "munit/2
+	 todo/data/Codecs.27
+		 )todo/data/BijectionSuite#testBijection().2:
+		 ,todo/data/BijectionSuite#testBijection().[A]2=
+
+
+ /todo/data/BijectionSuite#testBijection().(name)2"
+
+
+
+ scala/Predef.String#2A
+ 3todo/data/BijectionSuite#testBijection().(original)2:
+ ,todo/data/BijectionSuite#testBijection().[A]2<
+
+ .todo/data/BijectionSuite#testBijection().(loc)2
+ munit/Location#2
+ munit/2>
+ $0todo/data/BijectionSuite#testBijection().(codec)2
+& +io/circe/Codec#2:
+, -,todo/data/BijectionSuite#testBijection().[A]2
+1 5scala/Unit#2$
+ munit/FunSuite#test().2=
+	 /todo/data/BijectionSuite#testBijection().(name)2
+
+ local02!
+$ &io/circe/Json#as().2:
+ #,io/circe/syntax/package.EncoderOps#asJson().23
+ %io/circe/syntax/package.EncoderOps().2A
+ 3todo/data/BijectionSuite#testBijection().(original)2>
+# #0todo/data/BijectionSuite#testBijection().(codec)2:
+' (,todo/data/BijectionSuite#testBijection().[A]2>
+) )0todo/data/BijectionSuite#testBijection().(codec)2
+ local02)
+ scala/util/Right.unapply().2"
+ scala/package.Right.2
+ local12.
+ % munit/Assertions#assertEquals().2A
+& .3todo/data/BijectionSuite#testBijection().(original)2
+0 1local12<
+2 2.todo/data/BijectionSuite#testBijection().(loc)2!
+2 2scala/`<:<`.refl().2(
+ scala/util/Left.unapply().2!
+ scala/package.Left.2
+ local22(
+ munit/Assertions#fail(+1).29
+9 D+scala/collection/StringOps#stripMargin(+1).2+
+ scala/Predef.augmentString().2&
+7 8scala/StringContext#s().2*
+! !scala/StringContext.apply().2=
+7 ;/todo/data/BijectionSuite#testBijection().(name)2A
+) 13todo/data/BijectionSuite#testBijection().(original)2&
+: Aio/circe/Json#spaces2().2:
+3 9,io/circe/syntax/package.EncoderOps#asJson().23
+* *%io/circe/syntax/package.EncoderOps().2A
+* 23todo/data/BijectionSuite#testBijection().(original)2>
+9 90todo/data/BijectionSuite#testBijection().(codec)22
+, 4$io/circe/DecodingFailure#toString().2
+* +local22<
+E E.todo/data/BijectionSuite#testBijection().(loc)2<
+ .todo/data/BijectionSuite#testBijection().(loc)2-
+ todo/data/BijectionSuite#task1.2%
+ todo/data/Task.apply().2
+ todo/data/Task.2%
+ todo/data/State.Active.2
+ todo/data/State.2!
+4 4scala/Some.apply().2
+0 4scala/Some.27
+C C)scala/collection/IterableFactory#apply().2!
+? Cscala/package.List.2$
+G Gtodo/data/Tag.apply().2
+D Gtodo/data/Tag.2$
+Q Qtodo/data/Tag.apply().2
+N Qtodo/data/Tag.2-
+ todo/data/BijectionSuite#task2.2%
+ todo/data/Task.apply().2
+ todo/data/Task.2-
+ %todo/data/State.completedNow().2
+ todo/data/State.2!
+< <scala/Some.apply().2
+8 <scala/Some.27
+Q Q)scala/collection/IterableFactory#apply().2!
+M Qscala/package.List.2$
+U Utodo/data/Tag.apply().2
+R Utodo/data/Tag.2$
+_ _todo/data/Tag.apply().2
+\ _todo/data/Tag.2-
+ todo/data/BijectionSuite#tasks.2&
+ todo/data/Tasks.apply().2
+ todo/data/Tasks.27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2-
+ !scala/Predef.ArrowAssoc#`->`().2(
+ scala/Predef.ArrowAssoc().2#
+ todo/data/Id.apply().2
+ todo/data/Id.2-
+" 'todo/data/BijectionSuite#task1.2-
+/ 1scala/Predef.ArrowAssoc#`->`().2(
+) )scala/Predef.ArrowAssoc().2#
++ +todo/data/Id.apply().2
+) +todo/data/Id.2-
+2 7todo/data/BijectionSuite#task2.27
+ )todo/data/BijectionSuite#testBijection().2-
+ todo/data/BijectionSuite#task1.2B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2)
+ todo/data/Codecs.taskCodec.27
+ )todo/data/BijectionSuite#testBijection().2-
+ todo/data/BijectionSuite#task2.2B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2)
+ todo/data/Codecs.taskCodec.27
+   )todo/data/BijectionSuite#testBijection().2$
+   todo/data/Tag.apply().2
+   todo/data/Tag.2B
+ $  $4munit/internal/MacroCompat.LocationMacro#generate().2(
+ $  $todo/data/Codecs.tagCodec.27
+!! )todo/data/BijectionSuite#testBijection().2%
+!&! ,todo/data/State.Active.2
+! ! %todo/data/State.2B
+!-! -4munit/internal/MacroCompat.LocationMacro#generate().2*
+!-! -todo/data/Codecs.stateCodec.27
+"" )todo/data/BijectionSuite#testBijection().20
+"2" 2"todo/data/State.Completed.apply().2(
+")" 2todo/data/State.Completed.2
+"#" (todo/data/State.2,
+"K" Njava/time/ZonedDateTime#now().2&
+"=" Jjava/time/ZonedDateTime#2
+"8" <
+java/time/2
+"3" 7java/2B
+"R" R4munit/internal/MacroCompat.LocationMacro#generate().2*
+"R" Rtodo/data/Codecs.stateCodec.27
+## )todo/data/BijectionSuite#testBijection().2#
+## todo/data/Id.apply().2
+## todo/data/Id.2B
+## 4munit/internal/MacroCompat.LocationMacro#generate().2)
+## todo/data/Codecs.idEncoder.27
+$$ )todo/data/BijectionSuite#testBijection().2-
+$$ todo/data/BijectionSuite#tasks.2B
+$$ 4munit/internal/MacroCompat.LocationMacro#generate().2*
+$$ todo/data/Codecs.tasksCodec.PZ A811BE389C5B1DE2A349F3AAEC65D69E

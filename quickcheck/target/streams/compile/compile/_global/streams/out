@@ -1,0 +1,26 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/quickcheck/src/main/scala/quickcheck/HeapProperties.scala:128:56 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m128 |[0m        (findMin(heap2) == findMin(meldedHeap)) && check(deleteMin(meldedHeap), heap1)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                   [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |missing argument for parameter meldedHeap of [33mmethod[0m [35mcheck[0m in [33mtrait[0m [35mHeapProperties[0m: (heap1: List[HeapProperties.this.heapInterface.Node], heap2: [0m
+[0m[[0m[31merror[0m] [0m[0m    |  List[HeapProperties.this.heapInterface.Node][0m
+[0m[[0m[31merror[0m] [0m[0m    |, meldedHeap: List[HeapProperties.this.heapInterface.Node]): Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/quickcheck/src/main/scala/quickcheck/HeapProperties.scala:130:56 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m130 |[0m        (findMin(heap1) == findMin(meldedHeap)) && check(deleteMin(meldedHeap), heap2)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                   [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |missing argument for parameter meldedHeap of [33mmethod[0m [35mcheck[0m in [33mtrait[0m [35mHeapProperties[0m: (heap1: List[HeapProperties.this.heapInterface.Node], heap2: [0m
+[0m[[0m[31merror[0m] [0m[0m    |  List[HeapProperties.this.heapInterface.Node][0m
+[0m[[0m[31merror[0m] [0m[0m    |, meldedHeap: List[HeapProperties.this.heapInterface.Node]): Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/quickcheck/src/main/scala/quickcheck/HeapProperties.scala:134:38 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m134 |[0m          [33mval[0m [36mchecked[0m: [35mBoolean[0m = check(deleteMin(meldedHeap), deleteMin(heap1))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                 [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |missing argument for parameter meldedHeap of [33mmethod[0m [35mcheck[0m in [33mtrait[0m [35mHeapProperties[0m: (heap1: List[HeapProperties.this.heapInterface.Node], heap2: [0m
+[0m[[0m[31merror[0m] [0m[0m    |  List[HeapProperties.this.heapInterface.Node][0m
+[0m[[0m[31merror[0m] [0m[0m    |, meldedHeap: List[HeapProperties.this.heapInterface.Node]): Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/quickcheck/src/main/scala/quickcheck/HeapProperties.scala:137:38 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m137 |[0m          [33mval[0m [36mchecked[0m: [35mBoolean[0m = check(deleteMin(meldedHeap), deleteMin(heap2))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                 [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |missing argument for parameter meldedHeap of [33mmethod[0m [35mcheck[0m in [33mtrait[0m [35mHeapProperties[0m: (heap1: List[HeapProperties.this.heapInterface.Node], heap2: [0m
+[0m[[0m[31merror[0m] [0m[0m    |  List[HeapProperties.this.heapInterface.Node][0m
+[0m[[0m[31merror[0m] [0m[0m    |, meldedHeap: List[HeapProperties.this.heapInterface.Node]): Boolean[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

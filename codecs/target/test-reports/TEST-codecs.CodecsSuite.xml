@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="MSK-C02D40ANML7H-2.local" name="codecs.CodecsSuite" tests="14" errors="0" failures="7" skipped="0" time="0.271" timestamp="2022-05-27T16:27:27">
+          <properties>
+      <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://openjdk.java.net/"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.6.2/libexec/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-04-22"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/><property name="user.name" value="iaskvortsov"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/Users/iaskvortsov/Library/Caches/JNA/temp/jna4173135841734960209.tmp"/><property name="java.vendor.version" value="18.9"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/var/folders/63/q32zgnw527g9547scbl9tby00000gn/T/"/><property name="java.version" value="11.0.15.1"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/Users/iaskvortsov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="/Users/iaskvortsov/.sbt/1.0/java9-rt-ext-oracle_corporation_11_0_15_1"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="gopherProxySet" value="false"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.6.2/libexec/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Moscow"/><property name="os.name" value="Mac OS X"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="RU"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/iaskvortsov"/><property name="user.language" value="ru"/><property name="sbt.script" value="/usr/local/Cellar/sbt/1.6.2/libexec/bin/sbt"/><property name="swoval.tmpdir" value="/Users/iaskvortsov/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="path.separator" value=":"/><property name="os.version" value="12.3.1"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/codecs"/><property name="os.arch" value="x86_64"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.15.1+2-LTS-10"/><property name="java.class.version" value="55.0"/>
+    </properties>
+          <testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode the 'Unit' value (0pts)" time="0.195">
+                      
+                    </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode 'Int' values (1pt)" time="0.019">
+                      
+                    </testcase><testcase classname="codecs.CodecsSuite" name="the 'Int' decoder should reject invalid 'Int' values (2pts)" time="0.003">
+                      
+                    </testcase><testcase classname="codecs.CodecsSuite" name="a 'String' value should be encoded as a JSON string (1pt)" time="0.003">
+                      
+                    </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode 'String' values (1pt)" time="0.013">
+                      <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found.
+	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
+	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
+	at codecs.CodecsSuite.$init$$$anonfun$5(CodecsSuite.scala:52)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase><testcase classname="codecs.CodecsSuite" name="a 'Boolean' value should be encoded as a JSON boolean (1pt)" time="0.003">
+                      
+                    </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode 'Boolean' values (1pt)" time="0.003">
+                      <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found.
+	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
+	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
+	at codecs.CodecsSuite.$init$$$anonfun$7(CodecsSuite.scala:62)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase><testcase classname="codecs.CodecsSuite" name="a 'List[A]' value should be encoded as a JSON array (0pts)" time="0.003">
+                      
+                    </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode lists (5pts)" time="0.005">
+                      <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing.
+	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
+	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
+	at codecs.CodecsSuite.$init$$$anonfun$9(CodecsSuite.scala:72)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase><testcase classname="codecs.CodecsSuite" name="A JSON array with at least one invalid element should be rejected (2pt)" time="0.001">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at codecs.DecoderInstances.listDecoder(Codecs.scala:232)
+	at codecs.DecoderInstances.listDecoder$(Codecs.scala:185)
+	at codecs.CodecsSuite.listDecoder(CodecsSuite.scala:8)
+	at codecs.CodecsSuite.$init$$$anonfun$10(CodecsSuite.scala:77)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase><testcase classname="codecs.CodecsSuite" name="a 'Person' value should be encoded as a JSON object (1pt)" time="0.008">
+                      
+                    </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode people (4pts)" time="0.007">
+                      <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing.
+	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
+	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
+	at codecs.CodecsSuite.$init$$$anonfun$12(CodecsSuite.scala:89)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase><testcase classname="codecs.CodecsSuite" name="a 'Contacts' value should be encoded as a JSON object (1pt)" time="0.004">
+                      <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)
+	at codecs.ContactsCodecs.given_Encoder_Contacts(Codecs.scala:277)
+	at codecs.ContactsCodecs.given_Encoder_Contacts$(Codecs.scala:271)
+	at codecs.CodecsSuite.given_Encoder_Contacts(CodecsSuite.scala:8)
+	at codecs.CodecsSuite.$init$$$anonfun$13(CodecsSuite.scala:97)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode contacts (4pts)" time="0.004">
+                      <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing.
+	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
+	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
+	at codecs.CodecsSuite.$init$$$anonfun$14(CodecsSuite.scala:103)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

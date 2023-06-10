@@ -1,0 +1,4 @@
+[debug] [quickcheck-test] Classpath dependencies List()
+[debug] [quickcheck-test] Dependencies from configurations List(quickcheck)
+[debug] Bloop wrote the configuration of project 'quickcheck-test' to '/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/quickcheck/.bloop/quickcheck-test.json'
+[success] Generated .bloop/quickcheck-test.json

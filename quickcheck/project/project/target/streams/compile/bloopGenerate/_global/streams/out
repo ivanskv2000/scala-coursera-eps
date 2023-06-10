@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[quickcheck-build-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[quickcheck-build-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'quickcheck-build-build' to '/Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/quickcheck/project/project/.bloop/quickcheck-build-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/quickcheck-build-build.json[0m

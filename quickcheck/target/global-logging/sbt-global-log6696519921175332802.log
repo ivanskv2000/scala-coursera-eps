@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(submit ivanskv2000@gmail.com hefuAjZukTICjdjt, Some(980e6839-6505-43e8-a294-92f9f7bd132b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: submit[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mAttempting to submit "quickcheck" assignment in "effective-scala" course[0m
+[0m[[0m[0minfo[0m] [0m[0mUsing:[0m
+[0m[[0m[0minfo[0m] [0m[0m- email: ivanskv2000@gmail.com[0m
+[0m[[0m[0minfo[0m] [0m[0m- submit token: hefuAjZukTICjdjt[0m
+[0m[[0m[0minfo[0m] [0m[0mConnecting to Coursera...[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully connected to Coursera. (Status 201)[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mAssignment submitted successfully![0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mYou can see how you scored by going to:[0m
+[0m[[0m[0minfo[0m] [0m[0mhttps://www.coursera.org/learn/effective-scala/programming/AAvwb/[0m
+[0m[[0m[0minfo[0m] [0m[0mor (for premium learners):[0m
+[0m[[0m[0minfo[0m] [0m[0mhttps://www.coursera.org/learn/effective-scala/programming/VxTAY[0m
+[0m[[0m[0minfo[0m] [0m[0m                       [0m
+[0m[[0m[0minfo[0m] [0m[0mand clicking on "My Submission".[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 3 s, completed 20 мая 2022 г., 0:14:03[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

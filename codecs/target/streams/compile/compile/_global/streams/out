@@ -1,0 +1,32 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/codecs/src/main/scala/codecs/Codecs.scala:89:40 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m89 |[0m    Encoder.fromFunction([36mb[0m => Json.Bool(Boolean(b)))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                        [31m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                [33mobject[0m [35mBoolean[0m in [33mpackage[0m [35mscala[0m does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/codecs/src/main/scala/codecs/Codecs.scala:194:44 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m194 |[0m    Decoder.fromPartialFunction { [33mcase[0m Json.Int => Decoder.fromFunction([36mji[0m => BigDecimal(ji)) }[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                       [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                       value Int is not a member of object codecs.Json[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E134] Type Error: /Users/iaskvortsov/Documents/GitHub/scala-coursera-eps/codecs/src/main/scala/codecs/Codecs.scala:194:78 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m194 |[0m    Decoder.fromPartialFunction { [33mcase[0m Json.Int => Decoder.fromFunction([36mji[0m => BigDecimal(ji)) }[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                                              [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |None of the overloaded alternatives of [33mmethod[0m [35mapply[0m in [33mobject[0m [35mBigDecimal[0m with types[0m
+[0m[[0m[31merror[0m] [0m[0m    | (bd: java.math.BigDecimal): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (unscaledVal: BigInt, scale: Int, mc: java.math.MathContext): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (unscaledVal: BigInt, scale: Int): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (x: BigInt, mc: java.math.MathContext): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (x: BigInt): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (x: String, mc: java.math.MathContext): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (x: String): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (x: Array[Char], mc: java.math.MathContext): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (x: Array[Char]): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (d: Double, mc: java.math.MathContext): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (d: Double): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (unscaledVal: Long, scale: Int, mc: java.math.MathContext): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (unscaledVal: Long, scale: Int): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (l: Long, mc: java.math.MathContext): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (l: Long): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (i: Int, mc: java.math.MathContext): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    | (i: Int): BigDecimal[0m
+[0m[[0m[31merror[0m] [0m[0m    |match arguments ((ji : codecs.Json))[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
